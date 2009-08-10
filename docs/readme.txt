@@ -38,7 +38,7 @@ You can find the full text in license.txt.
 OpenSFX is available from at least three locations. This readme will
 only cover the official download locations. We cannot support third
 party download locations and we cannot refund your money if you have
-paid money for OpenGFX.
+paid money for OpenSFX.
 
 There's two places where you can get the latest stable release:
   * If you're new to OpenTTD and don't have access to the original
@@ -66,11 +66,11 @@ There's two places where you can get the latest stable release:
     either. Keep a stable or working nightly sitting in the /data dir
     and just delete a broken nightly to get OpenSFX working again.
       o Download location:
-          http://mz.openttdcoop.org/bundles/opengfx/nightlies/;
+          http://mz.openttdcoop.org/bundles/opensfx/nightlies/;
       o Installation instructions:
-          Installing OpenGFX Manually.
+          Installing OpenSFX Manually.
 
-2.1) Installing OpenGFX Manually
+2.1) Installing OpenSFX Manually
 ==== ===========================
 1. First, make sure that you've downloaded and installed at least
    OpenTTD version 0.8.0 or a recent nightly.
@@ -94,7 +94,7 @@ There's two places where you can get the latest stable release:
      * If you installed the original TTD base sounds as well, this
        is where you can switch base sound sets.
 
-2.2) Installing or Updating OpenGFX using the Online Content service
+2.2) Installing or Updating OpenSFX using the Online Content service
 ==== ===============================================================
 This method uses the Online content service (BaNaNaS) to download OpenSFX.
 In order to use this, you need a working OpenTTD and again at least
@@ -121,9 +121,9 @@ OpenTTD version 0.8.0 or a recent nightly.
 ==== ====================
 The OpenSFX source is available in a Mercurial repository. You can
 download the source in bz2, zip or gz format from:
-> http://mz.openttdcoop.org/hg/opengfx
+> http://mz.openttdcoop.org/hg/opensfx
 You can use Mercurial to do an anonymous checkout from the same address:
-> hg clone http://mz.openttdcoop.org/hg/opengfx
+> hg clone http://mz.openttdcoop.org/hg/opensfx
 
 
 4.0) Credits
