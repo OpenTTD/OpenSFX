@@ -1,0 +1,10 @@
+# uncomment the lines which you need
+
+# here goes the directory where to copy the compiled grf
+# INSTALLDIR =
+
+# Flags for nforenum and grfcodec
+# CATCODEC_FLAGS = -e
+
+# MD5SUM   =
+
