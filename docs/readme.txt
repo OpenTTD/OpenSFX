@@ -150,6 +150,7 @@ The original sources of our mixed samples are:
  - "roscoetoon" from "freesound.org"
  - "sagetyrtle" from "freesound.org"
  - "saphix" from "freesound.org"
+ - "tigersound" from "freesound.org"
  - Tom Haigh ("audible-edge" from "freesound.org")
 
 Editing/(re)mixing was done by:
