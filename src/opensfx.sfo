@@ -22,7 +22,7 @@
 "src/wav/osfx_20.wav" "Cash till". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_21.wav" "Beep". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_22.wav" "Morse". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_23.wav" "Plane wheels touching ground". Original by Tom Haigh ("audible-edge" from "freesound.org"). Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_23.wav" "Plane wheels touching ground". Original by Tom Haigh ("audible-edge" at "freesound.org"). Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_24.wav" "Helicopter". Original by "lorenzosu" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_25.wav" "Bus start, pull away". Original by "saphix" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_26.wav" "Bus start, pull away with horn". Original by "saphix" and "conny" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
@@ -36,7 +36,7 @@
 "src/wav/osfx_34.wav" "Unused/Nothing". By Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_35.wav" "Modern car horn". Original by "han1" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Sheep". TODO
-"src/wav/nothing.wav" "Cow". TODO
+"src/wav/osfx_37.wav" "Cow". Original by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_38.wav" "Horse". Original by "dobroide" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Building bridge". TODO
 "src/wav/nothing.wav" "Sawmill". TODO

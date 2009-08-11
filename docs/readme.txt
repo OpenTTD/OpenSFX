@@ -129,6 +129,7 @@ You can use Mercurial to do an anonymous checkout from the same address:
 4.0) Credits
 ==== =======
 The original sources of our mixed samples are:
+ - "acclivity" from "freesound.org"
  - "Aldor" from "pdsounds.org"
  - "Anton" from "freesound.org"
  - "conny" from "freesound.org"
@@ -142,14 +143,16 @@ The original sources of our mixed samples are:
  - "Marec" from "freesound.org"
  - "lorenzosu" from "freesound.org"
  - "patchen" from "freesound.org"
- - "sagetyrtle" from "freesound.org"
- - "saphix" from "freesound.org"
  - Remko Bijker ("Rubidium" at "wiki.openttd.org")
  - "roscoetoon" from "freesound.org"
+ - "sagetyrtle" from "freesound.org"
+ - "saphix" from "freesound.org"
+ - Tom Haigh ("audible-edge" from "freesound.org")
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
  - "Jklamo" from "wiki.opentd.org"
+ - Remko Bijker ("Rubidium" at "wiki.openttd.org")
 
 A detailed list of who has worked on what sample is available in the
 file opensfx.sfo in the source repository.
