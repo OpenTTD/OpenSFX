@@ -131,6 +131,7 @@ You can use Mercurial to do an anonymous checkout from the same address:
 The original sources of our mixed samples are:
  - "acclivity" from "freesound.org"
  - "Aldor" from "pdsounds.org"
+ - "alexrigg" from "freesound.org"
  - "Anton" from "freesound.org"
  - "conny" from "freesound.org"
  - "dobroide" from "freesound.org"
