@@ -1,3 +1,6 @@
 opensfx-nightly
 opensfx.obs
 src/opensfx.cat
+src/opensfx.sfo.orig
+Makefile.local
+
