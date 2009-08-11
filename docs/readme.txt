@@ -133,6 +133,7 @@ The original sources of our mixed samples are:
  - "Aldor" from "pdsounds.org"
  - "alexrigg" from "freesound.org"
  - "Anton" from "freesound.org"
+ - "Bidone" from "freesound.org"
  - "conny" from "freesound.org"
  - "dobroide" from "freesound.org"
  - "Halleck" from "freesound.org"
