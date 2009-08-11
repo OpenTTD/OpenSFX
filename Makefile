@@ -104,6 +104,9 @@ clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.cat *~ $(FILENAME).* $(DEP_FILENAMES) $(SRCDIR)/$(CAT_FILENAME) $(SRCDIR)/*.bak
 
+mrproper:
+	$(V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE) $(SRCDIR)/$(CAT_FILENAME) $(OBS_FILE)
+
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
 	$(_E) "[Generating:] $@/."
