@@ -144,6 +144,7 @@ The original sources of our mixed samples are:
  - "lorenzosu" from "freesound.org"
  - "patchen" from "freesound.org"
  - Remko Bijker ("Rubidium" at "wiki.openttd.org")
+ - Robert Gacek ("Robinhood76" at "freesound.org")
  - "roscoetoon" from "freesound.org"
  - "sagetyrtle" from "freesound.org"
  - "saphix" from "freesound.org"
