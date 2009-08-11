@@ -136,6 +136,7 @@ The original sources of our mixed samples are:
  - "Bidone" from "freesound.org"
  - "conny" from "freesound.org"
  - "dobroide" from "freesound.org"
+ - Elaine Miller ("Miselaineous" at "freesound.org")
  - "Halleck" from "freesound.org"
  - "han1" from "freesound.org"
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
