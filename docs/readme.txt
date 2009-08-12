@@ -1,5 +1,5 @@
 OpenSFX README
-Last updated:    2009-08-11
+Last updated:    2009-08-12
 Release version: 0.1-alpha1
 ------------------------------------------------------------------------
 
@@ -165,6 +165,7 @@ The original sources of our mixed samples are:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
  - "krillion" from "freesound.org"
+ - "Leady" from "freesound.org"
  - Leon Milo ("milo" at "freesound.org")
  - "Marec" from "freesound.org"
  - "lorenzosu" from "freesound.org"
