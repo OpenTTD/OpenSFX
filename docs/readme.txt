@@ -162,6 +162,7 @@ The original sources of our mixed samples are:
  - Elaine Miller ("Miselaineous" at "freesound.org")
  - "Halleck" from "freesound.org"
  - "han1" from "freesound.org"
+ - "icmusic" from "freesound.org"
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
  - "krillion" from "freesound.org"
