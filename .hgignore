@@ -1,5 +1,6 @@
 opensfx-nightly
 opensfx.obs
+opensfx.d
 src/opensfx.cat
 src/opensfx.sfo.orig
 Makefile.local

@@ -85,9 +85,9 @@ $(OBS_FILE) : $(SRCDIR)/$(CAT_FILENAME)
 	$(_E) "[Done] Basesound successfully generated."
 	$(_E) ""
 
-#%.$(DEP_SUFFIX) : $(SRCDIR)/%.$(SFO_SUFFIX)
-#	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(CAT_SUFFIX))"
-#	$(_V) grep "wav" $< | sed -e "s|^.*[ 	]\(wav/[^ 	]*\).*|$< $(<:$(PNFO_SUFFIX)=$(NFO_SUFFIX)) : \1|" | sort | uniq > $@
+%.$(DEP_SUFFIX) : $(SRCDIR)/%.$(SFO_SUFFIX)
+	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(CAT_SUFFIX))"
+	$(_V) grep "wav" $< | cut -f1 -d\  | sed 's@"@@g;s@^@$(<) $(@:%.$(DEP_SUFFIX)=$(SRCDIR)/%.$(CAT_SUFFIX)) : @' | sort | uniq > $@
 
 # Compile CAT
 %.$(CAT_SUFFIX) : %.$(SFO_SUFFIX)
@@ -104,7 +104,7 @@ clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.cat *~ $(FILENAME).* $(DEP_FILENAMES) $(SRCDIR)/$(CAT_FILENAME) $(SRCDIR)/*.bak
 
-mrproper:
+mrproper: clean
 	$(V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SRCDIR)/$(CAT_FILENAME) $(OBS_FILE)
 
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
