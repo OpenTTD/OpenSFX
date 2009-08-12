@@ -1,5 +1,5 @@
 OpenSFX README
-Last updated:    2009-08-10
+Last updated:    2009-08-11
 Release version: 0.1-alpha1
 ------------------------------------------------------------------------
 
@@ -11,6 +11,8 @@ Table of Contents:
  * 2.1) Installing OpenSFX manually
  * 2.2) Installing OpenSFX using the Online Content service
 3.0) Obtaining the source
+ * 3.1) Compiling the source
+ * 3.2) Contributing
 4.0) Credits
 
 
@@ -34,7 +36,6 @@ You can find the full text in license.txt.
 
 2.0) Installing
 ==== ==========
-
 OpenSFX is available from at least three locations. This readme will
 only cover the official download locations. We cannot support third
 party download locations and we cannot refund your money if you have
@@ -59,14 +60,14 @@ There's two places where you can get the latest stable release:
           Installing OpenSFX using the Online Content service.
 
   * Just like OpenTTD, there are nightly builds of OpenSFX available
-    as well. Every evening around ??:?? CEST a new build of OpenSFX
+    as well. Every evening around 18:18 CE(S)T a new build of OpenSFX
     is created automatically (if there's something new that is).
     Unlike stable releases these builds aren't tested to see if they
     work, but if a nightly doesn't work, it doesn't break anything
     either. Keep a stable or working nightly sitting in the /data dir
     and just delete a broken nightly to get OpenSFX working again.
       o Download location:
-          http://mz.openttdcoop.org/bundles/opensfx/nightlies/;
+          http://mz.openttdcoop.org/bundles/opensfx/nightlies/
       o Installation instructions:
           Installing OpenSFX Manually.
 
@@ -124,6 +125,27 @@ download the source in bz2, zip or gz format from:
 > http://mz.openttdcoop.org/hg/opensfx
 You can use Mercurial to do an anonymous checkout from the same address:
 > hg clone http://mz.openttdcoop.org/hg/opensfx
+
+3.1) Compiling the source
+==== ====================
+For compiling the source you need:
+ * catcodec (http://www.openttd.org/download-catcodec)
+ * (GNU) make
+ * md5sum
+ * cut
+ * a sh compatible shell
+ * hg (Mercurial) if you want it to be properly versioned
+If you want to package you also need tar, zip and possibly bzip2.
+
+3.2) Contributing
+==== ============
+Contributing to OpenSFX can be done in several ways, but they generally end
+up with providing (improved) samples for the set. If you've got a better
+sample than we currently have you can make that know via an issue at:
+> http://dev.openttdcoop.org/projects/opensfx/issues/new
+Please mention who made the original samples and that the sample has been
+released under the Creative Commons Sampling Plus 1.0 License or a license
+that allows us to release it under that license.
 
 
 4.0) Credits
