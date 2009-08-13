@@ -158,6 +158,7 @@ The original sources of our mixed samples are:
  - "Benboncan" from "freesound.org"
  - "Bidone" from "freesound.org"
  - "conny" from "freesound.org"
+ - David R Barnes ("earthcalling"
  - "dobroide" from "freesound.org"
  - Elaine Miller ("Miselaineous" at "freesound.org")
  - "Halleck" from "freesound.org"
