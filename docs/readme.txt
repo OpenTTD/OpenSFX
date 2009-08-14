@@ -165,6 +165,7 @@ The original sources of our mixed samples are:
  - "han1" from "freesound.org"
  - "icmusic" from "freesound.org"
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
+ - "jascha" from "freesound.org"
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
  - "krillion" from "freesound.org"
  - "Leady" from "freesound.org"
