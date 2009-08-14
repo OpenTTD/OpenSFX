@@ -152,6 +152,7 @@ that allows us to release it under that license.
 ==== =======
 The original sources of our mixed samples are:
  - "acclivity" from "freesound.org"
+    * ChugChugWooHoo.mp3
     * TwoCows.wav
  - "Aldor" from "pdsounds.org"
     * L'ascenseur - Elevator
