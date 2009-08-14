@@ -168,6 +168,7 @@ The original sources of our mixed samples are:
  - "jascha" from "freesound.org"
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
  - "krillion" from "freesound.org"
+ - "l0calh05t" from "freesound.org"
  - "Leady" from "freesound.org"
  - Leon Milo ("milo" at "freesound.org")
  - "Marec" from "freesound.org"
