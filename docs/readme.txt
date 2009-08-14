@@ -79,20 +79,20 @@ There's two places where you can get the latest stable release:
 3. Unpack the zip into the OpenTTD's /data directory. There's no
    need to unpack the tar file, so just leave it as it is. Your
    OpenTTD /data directory is either located in:
-     * An OpenTTD folder in your user account's home directory:
+      * An OpenTTD folder in your user account's home directory:
           o Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD
           o Mac OSX: ~/Documents/OpenTTD
           o Linux: ~/.openttd
-     * The OpenTTD installation directory.
+      * The OpenTTD installation directory.
 4. Run OpenTTD.
 5. In the main menu of the game, click the Game Options button.
    The Game Options dialog will appear.
 6. Select OpenSFX from the drop-down list below Base sound set if
    that's not selected already (bottom left of window). Close the
    window using the × in the upper left corner.
-     * If you did not install the original TTD base sounds during
+      * If you did not install the original TTD base sounds during
        the installation of OpenTTD, you can skip this step.
-     * If you installed the original TTD base sounds as well, this
+      * If you installed the original TTD base sounds as well, this
        is where you can switch base sound sets.
 
 2.2) Installing or Updating OpenSFX using the Online Content service
@@ -103,7 +103,7 @@ OpenTTD version 0.8.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check online content
    button. A new window will pop up.
-     * If OpenTTD doesn't start, follow the manual installation procedure.
+      * If OpenTTD doesn't start, follow the manual installation procedure.
 2. Find the OpenSFX entry from the list at the left. You can use the
    search box in the upper right corner of the window.
 3. Click the little square in front of the OpenSFX entry in order to
@@ -115,7 +115,7 @@ OpenTTD version 0.8.0 or a recent nightly.
 6. Select OpenSFX from the drop-down list below Base sound set if
    that's not selected already (bottom left of window). Close the
    window using the × in the upper left corner.
-     * This is where you can switch base sound sets.
+      * This is where you can switch base sound sets.
 
 
 3.0) Obtaining the source
@@ -152,37 +152,73 @@ that allows us to release it under that license.
 ==== =======
 The original sources of our mixed samples are:
  - "acclivity" from "freesound.org"
+    * TwoCows.wav
  - "Aldor" from "pdsounds.org"
+    * L'ascenseur - Elevator
  - "alexrigg" from "freesound.org"
+    * crash_treefall_SE.mp3
  - "Anton" from "freesound.org"
+    * wind1.wav
  - "Benboncan" from "freesound.org"
+    * Circular saw crosscutting.wav
  - "Bidone" from "freesound.org"
+    * Affen schreit.mp3
  - "conny" from "freesound.org"
+    * DATSUN_T.wav
  - David R Barnes ("earthcalling"
+    * Corner of a sheep field in summer
  - "dobroide" from "freesound.org"
+    * 20060419.horse.neigh.wav
  - Elaine Miller ("Miselaineous" at "freesound.org")
+    * elaine-growl.wav
  - "Halleck" from "freesound.org"
+    * JacobsLadderLong2.flac
  - "han1" from "freesound.org"
+    * claxon.wav
  - "icmusic" from "freesound.org"
+    * london bus approaches & leaves.wav
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
+    * Own recordings/mixes
  - "jascha" from "freesound.org"
+    * kick_1.wav
+ - "JFBSAUVE" from "freesound.org"
+    * CHAINSAW.wav
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
+    * generic prop_start(8.395).wav
  - "krillion" from "freesound.org"
+    * flyby.mp3
  - "l0calh05t" from "freesound.org"
+    * in the smithy 2.wav
  - "Leady" from "freesound.org"
+    * Dropping a large gun.wav
  - Leon Milo ("milo" at "freesound.org")
+    * msfinmarken_Bergen.aif
+    * ship2_bergen.aif
  - lonemonk from "freesound.org"
+    * Approx 850 - Enthusiast Audience.wav
  - "Marec" from "freesound.org"
+    * metro.wav
  - "lorenzosu" from "freesound.org"
+    * helicopterRaw_16sec.wav
  - "patchen" from "freesound.org"
+    * Locomotive 1 Distant horn.wav
  - Remko Bijker ("Rubidium" at "wiki.openttd.org")
+    * Own work
  - Robert Gacek ("Robinhood76" at "freesound.org")
+    * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
+    * t_start1.mp3
  - "sagetyrtle" from "freesound.org"
+    * crash.wav
  - "saphix" from "freesound.org"
+    * file0375.mp3
  - "SlykMrByches" from "freesound.org"
+    * "splattt.mp3"
  - "tigersound" from "freesound.org"
+    * bird tweet.aif
+    * bird tweet 4.aif
  - Tom Haigh ("audible-edge" from "freesound.org")
+    * Nissan Maxima burnout (04-25-2009).wav
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
