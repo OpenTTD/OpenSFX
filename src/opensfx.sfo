@@ -28,7 +28,7 @@
 "src/wav/osfx_26.wav" "Bus start, pull away with horn". Original by "saphix" and "conny" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_27.wav" "Old truck start". Original by "roscoetoon" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_28.wav" "Modern truck start". Original by "icmusic" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/nothing.wav" "Applause". TODO
+"src/wav/osfx_29.wav" "Applause". Original by lonemonk from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_30.wav" "Oooh sound". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_31.wav" "Splat (terraform/non-rail builds". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_32.wav" "Splat (rail builds)". By "jascha" from "freesound.org". License: Creative Commons Sampling Plus 1.0 License.

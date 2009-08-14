@@ -171,6 +171,7 @@ The original sources of our mixed samples are:
  - "l0calh05t" from "freesound.org"
  - "Leady" from "freesound.org"
  - Leon Milo ("milo" at "freesound.org")
+ - lonemonk from "freesound.org"
  - "Marec" from "freesound.org"
  - "lorenzosu" from "freesound.org"
  - "patchen" from "freesound.org"
