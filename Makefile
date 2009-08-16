@@ -104,7 +104,7 @@ clean:
 	$(_V)-rm -rf *.orig *.pre *.bak *.cat *~ $(FILENAME).* $(DEP_FILENAMES) $(SRCDIR)/$(CAT_FILENAME) $(SRCDIR)/*.bak
 
 mrproper: clean
-	$(V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SRCDIR)/$(CAT_FILENAME) $(OBS_FILE)
+	$(_V)-rm -rf $(DIR_NIGHTLY)* $(DIR_RELEASE)* $(SRCDIR)/$(CAT_FILENAME) $(OBS_FILE) $(DIR_RELEASE_SRC)
 
 $(DIR_NIGHTLY) $(DIR_RELEASE) : $(BUNDLE_FILES)
 	$(_E) "[BUNDLE]"
@@ -153,6 +153,18 @@ release-install: release
 release_zip: $(DIR_RELEASE).$(TAR_SUFFIX) $(DOC_FILENAMES)
 	$(_E) "[Generating:] $(ZIP_FILENAME)"
 	$(_V)$(ZIP) $(ZIP_FLAGS) $(ZIP_FILENAME) $^
+release_source:
+	$(_V) rm -rf $(DIR_RELEASE_SRC)
+	$(_V) mkdir -p $(DIR_RELEASE_SRC)
+	$(_V) cp -R $(SRCDIR) $(DOCDIR) Makefile Makefile.config $(DIR_RELEASE_SRC)
+	$(_V) cp Makefile.local.sample $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'CAT_REVISION = $(CAT_REVISION)' >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'CAT_MODIFIED = $(CAT_MODIFIED)' >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) echo 'REPO_TAGS    = $(REPO_TAGS)'    >> $(DIR_RELEASE_SRC)/Makefile.local
+	$(_V) $(MAKE) -C $(DIR_RELEASE_SRC) mrproper
+	$(_V) $(TAR) --gzip -cf $(DIR_RELEASE_SRC).tar.gz $(DIR_RELEASE_SRC)
+	$(_V) rm -rf $(DIR_RELEASE_SRC)
+
 
 $(INSTALLDIR):
 	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
