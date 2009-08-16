@@ -21,8 +21,11 @@ endif
 endif
 endif
 
+# define a few repository references used also in makefile.config
 CAT_REVISION = $(shell hg parent --template="{rev}\n")
-
+CAT_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
+# " \" (syntax highlighting line
+REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
 include ${MAKEFILECONFIG}
 
 # OS detection: Cygwin vs Linux
@@ -30,10 +33,6 @@ ISCYGWIN = $(shell [ ! -d /cygdrive/ ]; echo $$?)
 CATCODEC = $(shell [ \( $(ISCYGWIN) -eq 1 \) ] && echo catcodec.exe || echo catcodec)
 
 # this overrides definitions from above:
-CAT_MODIFIED = $(shell [ -n "`hg status \"." | grep -v '^?'`" ] && echo "M" || echo "")
-# " \" (syntax highlighting line
-REPO_TAGS    = $(shell hg parent --template="{tags}" | grep -v "tip" | cut -d\  -f1)
-
 -include ${MAKEFILELOCAL}
 
 REPO_DIRS    = $(dir $(BUNDLE_FILES))
