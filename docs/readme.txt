@@ -168,6 +168,8 @@ The original sources of our mixed samples are:
     * DATSUN_T.wav
  - David R Barnes ("earthcalling"
     * Corner of a sheep field in summer
+ - "ddub" from "freesound.org"
+    * concorde.mp3
  - "dobroide" from "freesound.org"
     * 20060419.horse.neigh.wav
  - "Ezwa" from "pdsounds.org"
