@@ -190,6 +190,8 @@ The original sources of our mixed samples are:
     * CHAINSAW.wav
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
     * generic prop_start(8.395).wav
+ - huha from "tt-forums.net"
+    * maglev_sound_2.wav
  - "krillion" from "freesound.org"
     * flyby.mp3
  - "l0calh05t" from "freesound.org"
