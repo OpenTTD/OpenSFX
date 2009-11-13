@@ -166,6 +166,8 @@ The original sources of our mixed samples are:
     * Circular saw crosscutting.wav
  - "Bidone" from "freesound.org"
     * Affen schreit.mp3
+ - "cats2009" from "freesound.org"
+    * blue_angels.wav
  - "conny" from "freesound.org"
     * DATSUN_T.wav
  - David R Barnes ("earthcalling"
