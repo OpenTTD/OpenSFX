@@ -174,6 +174,8 @@ The original sources of our mixed samples are:
     * Corner of a sheep field in summer
  - "ddub" from "freesound.org"
     * concorde.mp3
+ - "www.digifishmusic.com" ("digifishmusic" at "freesound.org")
+    * Passenger jet departs 2.wav
  - "dobroide" from "freesound.org"
     * 20060419.horse.neigh.wav
  - "Ezwa" from "pdsounds.org"

@@ -1,0 +1,111 @@
+Return-path: <sfisher@digifishmusic.com>
+Envelope-to: rubidium@openttd.org
+Delivery-date: Fri, 13 Nov 2009 23:24:16 +0000
+Received: from [80.247.163.10] (helo=mx1.mailfiltering.nl)
+	by openttd.org with esmtps (TLS1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69)
+	(envelope-from <sfisher@digifishmusic.com>)
+	id 1N95V2-0007RK-Fk
+	for rubidium@openttd.org; Fri, 13 Nov 2009 23:24:16 +0000
+Received-SPF: None (mx1.mailfiltering.nl: 72.29.75.23 is neither permitted
+nor denied by domain of digifishmusic.com) client-ip=72.29.75.23;
+envelope-from="sfisher@digifishmusic.com"; helo=jet4.hasweb.com;
+receiver=mx1.mailfiltering.nl; identity=mailfrom
+Received: from jet4.hasweb.com (jet4.hasweb.com [72.29.75.23])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mx1.mailfiltering.nl (Postfix) with ESMTPS id 0F027C3FEDC
+	for <rubidium@openttd.org>; Fri, 13 Nov 2009 23:24:15 +0000 (UTC)
+Received: from 122-49-169-90.ip.adam.com.au ([122.49.169.90]:49747
+helo=music)
+	by jet4.hasweb.com with esmtpa (Exim 4.69)
+	(envelope-from <sfisher@digifishmusic.com>)
+	id 1N94ZF-0006R8-Fq
+	for rubidium@openttd.org; Fri, 13 Nov 2009 17:24:34 -0500
+Reply-To: <sfisher@digifishmusic.com>
+From: "Scott Fisher" <sfisher@digifishmusic.com>
+To: "'Remko Bijker \(Rubidium\)'" <rubidium@openttd.org>
+In-Reply-To: <kt20n6.84cove@www.digifishmusic.com>
+Subject: RE: *** digifish contact ****
+Date: Sat, 14 Nov 2009 08:54:27 +1030
+Organization: digifish music
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: Acpkdu5GPf9DFTuhTyy1PuLOeXRFtwAOJdYg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6002.18005
+X-AntiAbuse: This header was added to track abuse, please include it with
+any abuse report
+X-AntiAbuse: Primary Hostname - jet4.hasweb.com
+X-AntiAbuse: Original Domain - openttd.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - digifishmusic.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20091113232416.0F027C3FEDC@mx1.mailfiltering.nl>
+X-Spam: No
+X-Spam-Score: 45
+X-Spam-Level: [*****-----]
+X-Spam-Status: No, score=45 required=70
+X-Mail-Filtering: MailFiltering: your mailbox free of SPAM
+(http://www.mailfiltering.nl)
+X-Virus-Scanned: ClamAV 0.94.2/10023/Fri Nov 13 17:59:18 2009 on
+mx1.mailfiltering.nl
+X-Virus-Status: Clean
+
+Greetings Remko
+
+Yes I am the Copyright holder and please consider this email a grant to use
+the sounds described below granted according to a -
+
+- worldwide
+- royalty-free
+- permanent
+- non-revocable
+
+license to use sounds in commercial or non-commercial applications.
+
+Regards Scott
+
+-----Original Message-----
+From: Remko Bijker (Rubidium) [mailto:rubidium@openttd.org] 
+Sent: Saturday, 14 November 2009 2:06 AM
+To: sfisher@digifishmusic.com
+Subject: *** digifish contact ****
+
+Name= Remko Bijker (Rubidium)
+Message= Hi,
+
+in accordance with http://www.freesound.org/usersViewSingle.php?id=29541 I'd
+like to make sure you are the copyright holder of
+http://www.freesound.org/samplesViewSingle.php?id=54965 ("Passenger jet
+departs 2.wav").
+
+Furthermore I would like to use a ~3 second snippet from the aircraft's
+noise (add fade in and fade out) as aircraft take-off sound for a free sound
+sample set for OpenTTD. OpenTTD (www.openttd.org) is a reimplementation of
+Transport Tycoon Deluxe (released in 1995) and we would like the game to be
+playable without the original sound files. As such we are looking for free
+replacement samples.
+More information about this replacement set, called OpenSFX, can be found at
+http://dev.openttdcoop.org/projects/opensfx . It will/is released under
+CC-Sampling Plus with sources, well actually only the 3 seconds from your
+sample that are used.
+All used sounds are credited with name and creator in the readme
+(http://dev.openttdcoop.org/projects/opensfx/repository/entry/docs/readme.tx
+t). It would be natural that your sample will be credited. E.g. 
+- "digifishmusic" from "freesound.org", produced by "www.digifishmusic.com"
+I'm open for other suggestions though, as long as it's relatively within the
+current style.
+
+Regards,
+Remko Bijker (Rubidium)
+Country= NL
+Phone= Optional
+Email= rubidium@openttd.org
+
+IP= 85.149.88.77
+date= 13-11-2009
