@@ -15,7 +15,7 @@
 "src/wav/osfx_13.wav" "Steam (of steam engine)". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_14.wav" "Level crossing". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_15.wav" "Road vehicle breakdown". Original "Dropping a large gun.wav" by "Leady" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/nothing.wav" "Train breakdown". TODO
+"src/wav/osfx_16.wav" "Train/ship breakdown". Original "Dumpster_Diving.wav" by "1sticky8" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_17.wav" "Crash". Original "crash.wav" by "sagetyrtle" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_18.wav" "Explosion". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_19.wav" "Big crash". Original "crash.wav" by "sagetyrtle" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
@@ -59,9 +59,9 @@
 "src/wav/osfx_57.wav" "Heavy wind". Original "wind1.wav" by "Anton" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Train breakdown". TODO
 "src/wav/osfx_59.wav" "Mach 1+ Jet take off". Original "concorde.mp3" by "ddub" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/nothing.wav" "Toyland: Comedy car start (1)". TODO
+"src/wav/nothing.wav" "Toyland: Comedy bus start (1)". TODO
 "src/wav/nothing.wav" "Jet take off (2)". TODO
-"src/wav/nothing.wav" "Toyland: Comedy car start (2)". TODO
+"src/wav/nothing.wav" "Toyland: Comedy bus start (2)". TODO
 "src/wav/nothing.wav" "Toyland: Comedy truck start (1)". TODO
 "src/wav/nothing.wav" "Toyland: Comedy truck start (2)". TODO
 "src/wav/osfx_65.wav" "Maglev train station departure". Original "metro.wav" by "Marec" from "freesound.org". Mixed/edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.

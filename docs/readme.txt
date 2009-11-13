@@ -151,6 +151,8 @@ that allows us to release it under that license.
 4.0) Credits
 ==== =======
 The original sources of our mixed samples are:
+ - "1sticky8" from "freesound.org"
+    * Dumpster_Diving.wav
  - "acclivity" from "freesound.org"
     * ChugChugWooHoo.mp3
     * TwoCows.wav
