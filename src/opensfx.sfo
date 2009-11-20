@@ -1,74 +1,74 @@
 // "file name" internal name
 "src/wav/osfx_00.wav" "Good Year". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_01.wav" "Bad Year". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_02.wav" "Splat (building docks/canals/river)". Original "splattt.mp3" by "SlykMrByches" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_02.wav" "Splat (building docks/canals/river)". Original "splattt.mp3" by "SlykMrByches" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_03.wav" "Factory Whistle". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_04.wav" "Steam train station departure". Original "ChugChugWooHoo.mp3" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_05.wav" "Steam engine going in tunnel". Original "ChugChugWooHoo.mp3" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_04.wav" "Steam train station departure". Original "ChugChugWooHoo.mp3" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_05.wav" "Steam engine going in tunnel". Original "ChugChugWooHoo.mp3" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_06.wav" "Ship horn". Original "ship2_bergen.aif" by Leon Milo ("milo" at "freesound.org"). Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_07.wav" "Ferry horn". Original "msfinmarken_Bergen.aif" by Leon Milo ("milo" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_07.wav" "Ferry horn". Original "msfinmarken_Bergen.aif" by Leon Milo ("milo" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_08.wav" "Propeller plane start". Original "generic prop_start(8.395).wav" by Jillian Callahan ("JillianCallahan" at "freesound.org"). Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_09.wav" "Early jet take off". Original "Passenger jet departs 2.wav" by "www.digifishmusic.com" ("digifishmusic" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_09.wav" "Early jet take off". Original "Passenger jet departs 2.wav" by "www.digifishmusic.com" ("digifishmusic" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_10.wav" "Diesel/electric train station departure". Original "Locomotive 1 Distant horn.wav" by "patchen" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_11.wav" "Mining machinery". Original "L'ascenseur - Elevator" by "Aldor" from "pdsounds.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License, original is Public Domain.
 "src/wav/osfx_12.wav" "Electric sparking". Original "JacobsLadderLong2.flac" by "Halleck" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_13.wav" "Steam (of steam engine)". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_14.wav" "Level crossing". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_15.wav" "Road vehicle breakdown". Original "Dropping a large gun.wav" by "Leady" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_16.wav" "Train/ship breakdown". Original "Dumpster_Diving.wav" by "1sticky8" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_16.wav" "Train/ship breakdown". Original "Dumpster_Diving.wav" by "1sticky8" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_17.wav" "Crash". Original "crash.wav" by "sagetyrtle" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_18.wav" "Explosion". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_19.wav" "Big crash". Original "crash.wav" by "sagetyrtle" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_20.wav" "Cash till". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_21.wav" "Beep". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_22.wav" "Morse". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_23.wav" "Plane wheels touching ground". Original "Nissan Maxima burnout (04-25-2009).wav" by Tom Haigh ("audible-edge" at "freesound.org"). Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_23.wav" "Plane wheels touching ground". Original "Nissan Maxima burnout (04-25-2009).wav" by Tom Haigh ("audible-edge" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_24.wav" "Helicopter". Original "helicopterRaw_16sec.wav" by "lorenzosu" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_25.wav" "Bus start, pull away". Original "file0375.mp3" by "saphix" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_26.wav" "Bus start, pull away with horn". Original "file0375.mp3" by "saphix" and "DATSUN_T.wav" by "conny" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_27.wav" "Old truck start". Original "t_start1.mp3" by "roscoetoon" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_28.wav" "Modern truck start". Original "london bus approaches & leaves.wav" by "icmusic" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_29.wav" "Applause". Original "Approx 850 - Enthusiast Audience.wav" by "lonemonk" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_29.wav" "Applause". Original "Approx 850 - Enthusiast Audience.wav" by "lonemonk" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_30.wav" "Oooh sound". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_31.wav" "Splat (terraform/non-rail builds". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_32.wav" "Splat (rail builds)". Original "kick_1.wav" by "jascha" from "freesound.org". License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_33.wav" "Jackhammer". Original "01063 roadworks driller.wav" by Robert Gacek ("Robinhood76" at "freesound.org"). Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_34.wav" "Unused/Nothing". By Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_33.wav" "Jackhammer". Original "01063 roadworks driller.wav" by Robert Gacek ("Robinhood76" at "freesound.org"). Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_34.wav" "Unused/Nothing". By Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_35.wav" "Modern car horn". Original "claxon.wav" by "han1" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_36.wav" "Sheep". Original "Corner of a sheep field in summer" by David R Barnes ("earthcalling" at "pdsounds.org"). Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_37.wav" "Cow". Original "TwoCows.wav" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_36.wav" "Sheep". Original "Corner of a sheep field in summer" by David R Barnes ("earthcalling" at "pdsounds.org"). Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_37.wav" "Cow". Original "TwoCows.wav" by "acclivity" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_38.wav" "Horse". Original "20060419.horse.neigh.wav" by "dobroide" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_39.wav" "Building bridge". Original "in the smithy 2.wav" by "l0calh05t" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_40.wav" "Sawmill". Original "Circular saw crosscutting.wav" by "Benboncan" from "freesound.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_41.wav" "Toyland: Sugar mine (1)". Original "Sifting Flour" by "Ezwa" from "pdsounds.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_39.wav" "Building bridge". Original "in the smithy 2.wav" by "l0calh05t" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_40.wav" "Sawmill". Original "Circular saw crosscutting.wav" by "Benboncan" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_41.wav" "Toyland: Sugar mine (1)". Original "Sifting Flour" by "Ezwa" from "pdsounds.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Toy factory (1)". TODO
 "src/wav/nothing.wav" "Toyland: Toy factory (2)". TODO
 "src/wav/nothing.wav" "Toyland: Toy factory (3)". TODO
-"src/wav/osfx_45.wav" "Toyland: Sugar mine (2)". Original "Sifting Flour" by "Ezwa" from "pdsounds.org". Edited by Remko Bijker ("Rubidium" from "wiki.opentd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/nothing.wav" "Toyland: Bubble extract and plop". TODO
+"src/wav/osfx_45.wav" "Toyland: Sugar mine (2)". Original "Sifting Flour" by "Ezwa" from "pdsounds.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_46.wav" "Toyland: Bubble extraction (1)". By Timo A. Hummel ("Felicitus" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_47.wav" "Toyland: Bubble plop". By Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Toffee quarry". TODO
-"src/wav/nothing.wav" "Toyland: Bubble extraction". TODO
-"src/wav/osfx_50.wav" "Unused/Nothing". By Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_49.wav" "Toyland: Bubble extraction (2)". By Timo A. Hummel ("Felicitus" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_50.wav" "Unused/Nothing". By Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Plastic mine". TODO
 "src/wav/osfx_52.wav" "Wind". Original "wind1.wav" by "Anton" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Road vehicle breakdown". TODO
-"src/wav/osfx_54.wav" "Lumber mill: Crashing tree". Original "crash_treefall_SE.mp3" by "alexrigg" from "freesound.org". Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_55.wav" "Lumber mill: Falling tree". Original "crash_treefall_SE.mp3" by "alexrigg" from "freesound.org". Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_54.wav" "Lumber mill: Crashing tree". Original "crash_treefall_SE.mp3" by "alexrigg" from "freesound.org". Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_55.wav" "Lumber mill: Falling tree". Original "crash_treefall_SE.mp3" by "alexrigg" from "freesound.org". Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_56.wav" "Lumber mill: Chainsaw". Original "CHAINSAW.wav" by "JFBSAUVE" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_57.wav" "Heavy wind". Original "wind1.wav" by "Anton" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Train breakdown". TODO
 "src/wav/osfx_59.wav" "Mach 1+ Jet take off". Original "concorde.mp3" by "ddub" from "freesound.org". Edited by "Jklamo" from "wiki.opentd.org". License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Comedy bus start (1)". TODO
-"src/wav/osfx_61.wav" "Modern jet take off". Original "blue_angels.wav" by "cats2009" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_61.wav" "Modern jet take off". Original "blue_angels.wav" by "cats2009" from "freesound.org". Edited by Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Comedy bus start (2)". TODO
 "src/wav/nothing.wav" "Toyland: Comedy truck start (1)". TODO
 "src/wav/nothing.wav" "Toyland: Comedy truck start (2)". TODO
 "src/wav/osfx_65.wav" "Maglev train station departure". Original "metro.wav" by "Marec" from "freesound.org". Mixed/edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_66.wav" "Tropical: Bird (1)". Original "bird tweet 4.aif" by "tigersound" from "freesound.org". Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_67.wav" "Tropical: Lion roar". Original "elaine-growl.wav" by Elaine Miller ("Miselaineous" at "freesound.org"). Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_68.wav" "Tropical: Monkeys". Original "Affen schreit.mp3" by "Bidone" from "freesound.org". Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_66.wav" "Tropical: Bird (1)". Original "bird tweet 4.aif" by "tigersound" from "freesound.org". Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_67.wav" "Tropical: Lion roar". Original "elaine-growl.wav" by Elaine Miller ("Miselaineous" at "freesound.org"). Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_68.wav" "Tropical: Monkeys". Original "Affen schreit.mp3" by "Bidone" from "freesound.org". Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/osfx_69.wav" "Toyland: Propeller plane take off". Original "flyby.mp3" by "krillion" from "freesound.org". Edited by Janis Lukss ("Pendrokar" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
 "src/wav/nothing.wav" "Toyland: Jet take off". TODO
 "src/wav/osfx_71.wav" "Monorail train station departure". Original "maglev_sound_2.wav" by huha from "tt-forums.net". License: Creative Commons Sampling Plus 1.0 License.
-"src/wav/osfx_72.wav" "Tropical: Bird (2)". Original "bird tweet.aif" by "tigersound" from "freesound.org". Remko Bijker ("Rubidium" at "wiki.openttd.org"). License: Creative Commons Sampling Plus 1.0 License.
+"src/wav/osfx_72.wav" "Tropical: Bird (2)". Original "bird tweet.aif" by "tigersound" from "freesound.org". Remko Bijker ("Rubidium" at "dev.openttdcoop.org"). License: Creative Commons Sampling Plus 1.0 License.

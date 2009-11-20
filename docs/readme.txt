@@ -215,7 +215,7 @@ The original sources of our mixed samples are:
     * helicopterRaw_16sec.wav
  - "patchen" from "freesound.org"
     * Locomotive 1 Distant horn.wav
- - Remko Bijker ("Rubidium" at "wiki.openttd.org")
+ - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
     * Own work
  - Robert Gacek ("Robinhood76" at "freesound.org")
     * 01063 roadworks driller.wav
@@ -230,13 +230,15 @@ The original sources of our mixed samples are:
  - "tigersound" from "freesound.org"
     * bird tweet.aif
     * bird tweet 4.aif
+ - Timo A. Hummel ("Felicitus" at "dev.openttdcoop.org")
+    * Own work
  - Tom Haigh ("audible-edge" from "freesound.org")
     * Nissan Maxima burnout (04-25-2009).wav
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
  - "Jklamo" from "wiki.opentd.org"
- - Remko Bijker ("Rubidium" at "wiki.openttd.org")
+ - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
 
 A detailed list of who has worked on what sample is available in the
 file opensfx.sfo in the source repository.
