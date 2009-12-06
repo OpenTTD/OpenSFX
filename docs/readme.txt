@@ -196,6 +196,8 @@ The original sources of our mixed samples are:
     * CHAINSAW.wav
  - Jillian Callahan ("JillianCallahan" at "freesound.org")
     * generic prop_start(8.395).wav
+ - "joedeshon" from "freesound.org"
+    * slide_whistle_down_fast_01.wav
  - huha from "tt-forums.net"
     * maglev_sound_2.wav
  - "krillion" from "freesound.org"
@@ -209,10 +211,12 @@ The original sources of our mixed samples are:
     * ship2_bergen.aif
  - lonemonk from "freesound.org"
     * Approx 850 - Enthusiast Audience.wav
- - "Marec" from "freesound.org"
-    * metro.wav
  - "lorenzosu" from "freesound.org"
     * helicopterRaw_16sec.wav
+ - "Marec" from "freesound.org"
+    * metro.wav
+ - "Necrosensual" from "freesound.org"
+    * aluminum02.wav
  - "patchen" from "freesound.org"
     * Locomotive 1 Distant horn.wav
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
@@ -221,6 +225,8 @@ The original sources of our mixed samples are:
     * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
     * t_start1.mp3
+ - "Q.K." from "freesound.org"
+    * Metal_03.wav
  - "sagetyrtle" from "freesound.org"
     * crash.wav
  - "saphix" from "freesound.org"
@@ -239,6 +245,7 @@ Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
  - "Jklamo" from "wiki.opentd.org"
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
+ - Richard Wheeler ("Zephyris" at "dev.openttdcoop.org")
 
 A detailed list of who has worked on what sample is available in the
 file opensfx.sfo in the source repository.
