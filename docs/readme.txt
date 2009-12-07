@@ -182,10 +182,14 @@ The original sources of our mixed samples are:
     * Sifting Flour
  - Elaine Miller ("Miselaineous" at "freesound.org")
     * elaine-growl.wav
+ - "Goldy-sama" from "freesound.org"
+   * bulle.wav
  - "Halleck" from "freesound.org"
     * JacobsLadderLong2.flac
  - "han1" from "freesound.org"
     * claxon.wav
+ - huha from "tt-forums.net"
+    * maglev_sound_2.wav
  - "icmusic" from "freesound.org"
     * london bus approaches & leaves.wav
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
@@ -198,8 +202,6 @@ The original sources of our mixed samples are:
     * generic prop_start(8.395).wav
  - "joedeshon" from "freesound.org"
     * slide_whistle_down_fast_01.wav
- - huha from "tt-forums.net"
-    * maglev_sound_2.wav
  - "krillion" from "freesound.org"
     * flyby.mp3
  - "l0calh05t" from "freesound.org"
@@ -233,6 +235,8 @@ The original sources of our mixed samples are:
     * file0375.mp3
  - "SlykMrByches" from "freesound.org"
     * "splattt.mp3"
+ - "suonho" from "freesound.org"
+   * ELEMENTS_WATER_02_Phasin-bubbles.wav
  - "tigersound" from "freesound.org"
     * bird tweet.aif
     * bird tweet 4.aif
