@@ -165,7 +165,7 @@ The original sources of our mixed samples are:
  - "Benboncan" from "freesound.org"
     * Circular saw crosscutting.wav
  - "benhillyard" from "freesound.org"
-   * "Vocal_Splat_08.wav"
+    * "Vocal_Splat_08.wav"
  - "Bidone" from "freesound.org"
     * Affen schreit.mp3
  - "cats2009" from "freesound.org"
@@ -176,6 +176,8 @@ The original sources of our mixed samples are:
     * Corner of a sheep field in summer
  - "ddub" from "freesound.org"
     * concorde.mp3
+ - Derek Murphy ("robbiesurp" at "freesound.org")
+    * "wfl5.5_snap.wav"
  - "www.digifishmusic.com" ("digifishmusic" at "freesound.org")
     * Passenger jet departs 2.wav
  - "dobroide" from "freesound.org"
@@ -183,13 +185,13 @@ The original sources of our mixed samples are:
  - Elaine Miller ("Miselaineous" at "freesound.org")
     * elaine-growl.wav
  - "Goldy-sama" from "freesound.org"
-   * bulle.wav
+    * bulle.wav
  - "Halleck" from "freesound.org"
     * JacobsLadderLong2.flac
  - "han1" from "freesound.org"
     * claxon.wav
  - "HerbertBoland" from "freesound.org"
-   * "MouthPop.wav"
+    * "MouthPop.wav"
  - huha from "tt-forums.net"
     * maglev_sound_2.wav
  - "icmusic" from "freesound.org"
@@ -219,16 +221,20 @@ The original sources of our mixed samples are:
     * helicopterRaw_16sec.wav
  - "Marec" from "freesound.org"
     * metro.wav
+ - "Matias.Reccius" from "freesound.org"
+    * "crashB.wav"
  - "Necrosensual" from "freesound.org"
     * aluminum02.wav
+ - "NoiseCollector" from "freesound.org"
+    * "CRASH2.wav"
  - "patchen" from "freesound.org"
     * Locomotive 1 Distant horn.wav
  - "Pooleside" from "freesound.org"
-   * "nnb04_maxed.wav"
+    * "nnb04_maxed.wav"
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
     * Own work
  - Richard Frohlich ("FreqMan" at "freesound.org")
-   * "whoosh06.wav"
+    * "whoosh06.wav"
  - Robert Gacek ("Robinhood76" at "freesound.org")
     * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
@@ -240,20 +246,22 @@ The original sources of our mixed samples are:
  - "saphix" from "freesound.org"
     * file0375.mp3
  - "scuola_rocca_di_botte" from "freesound.org"
-   * "Manuel Tarquini.wav"
+    * "Manuel Tarquini.wav"
  - "Sedi" from "freesound.org"
-   * "ae_51_m.wav"
+    * "ae_51_m.wav"
  - "SlykMrByches" from "freesound.org"
     * "splattt.mp3"
  - "suonho" from "freesound.org"
-   * ELEMENTS_WATER_02_Phasin-bubbles.wav
+    * ELEMENTS_WATER_02_Phasin-bubbles.wav
  - "tigersound" from "freesound.org"
     * bird tweet.aif
     * bird tweet 4.aif
  - Timo A. Hummel ("Felicitus" at "dev.openttdcoop.org")
     * Own work
- - Tom Haigh ("audible-edge" from "freesound.org")
+ - Tom Haigh ("audible-edge" at "freesound.org")
     * Nissan Maxima burnout (04-25-2009).wav
+ - "VEXST" from "freesound.org"
+    * "Snare 4.wav"
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
