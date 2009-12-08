@@ -180,8 +180,6 @@ The original sources of our mixed samples are:
     * Passenger jet departs 2.wav
  - "dobroide" from "freesound.org"
     * 20060419.horse.neigh.wav
- - "Ezwa" from "pdsounds.org"
-    * Sifting Flour
  - Elaine Miller ("Miselaineous" at "freesound.org")
     * elaine-growl.wav
  - "Goldy-sama" from "freesound.org"
@@ -241,6 +239,8 @@ The original sources of our mixed samples are:
     * crash.wav
  - "saphix" from "freesound.org"
     * file0375.mp3
+ - "scuola_rocca_di_botte" from "freesound.org"
+   * "Manuel Tarquini.wav"
  - "Sedi" from "freesound.org"
    * "ae_51_m.wav"
  - "SlykMrByches" from "freesound.org"
