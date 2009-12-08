@@ -164,6 +164,8 @@ The original sources of our mixed samples are:
     * wind1.wav
  - "Benboncan" from "freesound.org"
     * Circular saw crosscutting.wav
+ - "benhillyard" from "freesound.org"
+   * "Vocal_Splat_08.wav"
  - "Bidone" from "freesound.org"
     * Affen schreit.mp3
  - "cats2009" from "freesound.org"
@@ -188,6 +190,8 @@ The original sources of our mixed samples are:
     * JacobsLadderLong2.flac
  - "han1" from "freesound.org"
     * claxon.wav
+ - "HerbertBoland" from "freesound.org"
+   * "MouthPop.wav"
  - huha from "tt-forums.net"
     * maglev_sound_2.wav
  - "icmusic" from "freesound.org"
@@ -221,8 +225,12 @@ The original sources of our mixed samples are:
     * aluminum02.wav
  - "patchen" from "freesound.org"
     * Locomotive 1 Distant horn.wav
+ - "Pooleside" from "freesound.org"
+   * "nnb04_maxed.wav"
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
     * Own work
+ - Richard Frohlich ("FreqMan" at "freesound.org")
+   * "whoosh06.wav"
  - Robert Gacek ("Robinhood76" at "freesound.org")
     * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
@@ -233,6 +241,8 @@ The original sources of our mixed samples are:
     * crash.wav
  - "saphix" from "freesound.org"
     * file0375.mp3
+ - "Sedi" from "freesound.org"
+   * "ae_51_m.wav"
  - "SlykMrByches" from "freesound.org"
     * "splattt.mp3"
  - "suonho" from "freesound.org"
