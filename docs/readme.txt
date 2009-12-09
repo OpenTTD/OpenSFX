@@ -170,6 +170,8 @@ The original sources of our mixed samples are:
     * Affen schreit.mp3
  - "cats2009" from "freesound.org"
     * blue_angels.wav
+ - "cfork" from "freesound.org"
+    * "boing_raw.aif"
  - "conny" from "freesound.org"
     * DATSUN_T.wav
  - David R Barnes ("earthcalling"
@@ -251,6 +253,8 @@ The original sources of our mixed samples are:
     * "ae_51_m.wav"
  - "SlykMrByches" from "freesound.org"
     * "splattt.mp3"
+ - "Stickinthemud" from "freesound.org"
+    * "Bike Horn double toot.wav"
  - "suonho" from "freesound.org"
     * ELEMENTS_WATER_02_Phasin-bubbles.wav
  - "tigersound" from "freesound.org"
