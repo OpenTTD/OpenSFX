@@ -156,6 +156,8 @@ The original sources of our mixed samples are:
  - "acclivity" from "freesound.org"
     * ChugChugWooHoo.mp3
     * TwoCows.wav
+ - "AGFX" from "freesound.org"
+    * "Squeeky ball Toy_1.L.wav"
  - "Aldor" from "pdsounds.org"
     * L'ascenseur - Elevator
  - "alexrigg" from "freesound.org"
@@ -251,6 +253,8 @@ The original sources of our mixed samples are:
     * "Manuel Tarquini.wav"
  - "Sedi" from "freesound.org"
     * "ae_51_m.wav"
+ - "simon.rue" from "freesound.org"
+    * "Boink_v3.wav"
  - "SlykMrByches" from "freesound.org"
     * "splattt.mp3"
  - "Stickinthemud" from "freesound.org"
