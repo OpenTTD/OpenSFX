@@ -157,7 +157,7 @@ The original sources of our mixed samples are:
     * ChugChugWooHoo.mp3
     * TwoCows.wav
  - "AGFX" from "freesound.org"
-    * "Squeeky ball Toy_1.L.wav"
+    * Squeeky ball Toy_1.L.wav
  - "Aldor" from "pdsounds.org"
     * L'ascenseur - Elevator
  - "alexrigg" from "freesound.org"
@@ -167,13 +167,13 @@ The original sources of our mixed samples are:
  - "Benboncan" from "freesound.org"
     * Circular saw crosscutting.wav
  - "benhillyard" from "freesound.org"
-    * "Vocal_Splat_08.wav"
+    * Vocal_Splat_08.wav
  - "Bidone" from "freesound.org"
     * Affen schreit.mp3
  - "cats2009" from "freesound.org"
     * blue_angels.wav
  - "cfork" from "freesound.org"
-    * "boing_raw.aif"
+    * boing_raw.aif
  - "conny" from "freesound.org"
     * DATSUN_T.wav
  - David R Barnes ("earthcalling"
@@ -181,7 +181,7 @@ The original sources of our mixed samples are:
  - "ddub" from "freesound.org"
     * concorde.mp3
  - Derek Murphy ("robbiesurp" at "freesound.org")
-    * "wfl5.5_snap.wav"
+    * wfl5.5_snap.wav
  - "www.digifishmusic.com" ("digifishmusic" at "freesound.org")
     * Passenger jet departs 2.wav
  - "dobroide" from "freesound.org"
@@ -193,9 +193,10 @@ The original sources of our mixed samples are:
  - "Halleck" from "freesound.org"
     * JacobsLadderLong2.flac
  - "han1" from "freesound.org"
+    * Car start and drive.mp3
     * claxon.wav
  - "HerbertBoland" from "freesound.org"
-    * "MouthPop.wav"
+    * MouthPop.wav
  - huha from "tt-forums.net"
     * maglev_sound_2.wav
  - "icmusic" from "freesound.org"
@@ -223,22 +224,24 @@ The original sources of our mixed samples are:
     * Approx 850 - Enthusiast Audience.wav
  - "lorenzosu" from "freesound.org"
     * helicopterRaw_16sec.wav
+ - "man" from "freesound.org"
+    * swosh.aif
  - "Marec" from "freesound.org"
     * metro.wav
  - "Matias.Reccius" from "freesound.org"
-    * "crashB.wav"
+    * crashB.wav
  - "Necrosensual" from "freesound.org"
     * aluminum02.wav
  - "NoiseCollector" from "freesound.org"
-    * "CRASH2.wav"
+    * CRASH2.wav
  - "patchen" from "freesound.org"
     * Locomotive 1 Distant horn.wav
  - "Pooleside" from "freesound.org"
-    * "nnb04_maxed.wav"
+    * nnb04_maxed.wav
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
     * Own work
  - Richard Frohlich ("FreqMan" at "freesound.org")
-    * "whoosh06.wav"
+    * whoosh06.wav
  - Robert Gacek ("Robinhood76" at "freesound.org")
     * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
@@ -250,15 +253,15 @@ The original sources of our mixed samples are:
  - "saphix" from "freesound.org"
     * file0375.mp3
  - "scuola_rocca_di_botte" from "freesound.org"
-    * "Manuel Tarquini.wav"
+    * Manuel Tarquini.wav
  - "Sedi" from "freesound.org"
-    * "ae_51_m.wav"
+    * ae_51_m.wav
  - "simon.rue" from "freesound.org"
-    * "Boink_v3.wav"
+    * Boink_v3.wav
  - "SlykMrByches" from "freesound.org"
-    * "splattt.mp3"
+    * splattt.mp3
  - "Stickinthemud" from "freesound.org"
-    * "Bike Horn double toot.wav"
+    * Bike Horn double toot.wav
  - "suonho" from "freesound.org"
     * ELEMENTS_WATER_02_Phasin-bubbles.wav
  - "tigersound" from "freesound.org"
@@ -269,7 +272,7 @@ The original sources of our mixed samples are:
  - Tom Haigh ("audible-edge" at "freesound.org")
     * Nissan Maxima burnout (04-25-2009).wav
  - "VEXST" from "freesound.org"
-    * "Snare 4.wav"
+    * Snare 4.wav
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
