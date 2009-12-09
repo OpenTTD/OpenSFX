@@ -1,6 +1,6 @@
 OpenSFX README
-Last updated:    2009-08-14
-Release version: 0.1-alpha2
+Last updated:    2009-12-09
+Release version: 0.2.0
 ------------------------------------------------------------------------
 
 Table of Contents:

@@ -1,0 +1,21 @@
+0.2.0 (2009-12-09)
+------------------------------------------------------------------------
+First release with all samples completed.
+
+
+0.1.0 (2009-11-14)
+------------------------------------------------------------------------
+Third release with 59 of the 73 samples completed. All non-toyland
+samples have been completed. This means that OpenSFX replaces all sounds
+for the temperate, arctic and tropical climates.
+
+
+0.1.0-alpha2 (2009-08-14)
+------------------------------------------------------------------------
+Second release with 50 of the 73 samples completed. All non-vehicle and
+non-toyland samples are completed.
+
+
+0.1.0-alpha1 (2009-08-11)
+------------------------------------------------------------------------
+First release with 31 of the 73 samples completed.
