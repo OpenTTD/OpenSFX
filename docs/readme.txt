@@ -245,6 +245,7 @@ The original sources of our mixed samples are:
  - Robert Gacek ("Robinhood76" at "freesound.org")
     * 01063 roadworks driller.wav
  - "roscoetoon" from "freesound.org"
+    * rr_cross5.wav
     * t_start1.mp3
  - "Q.K." from "freesound.org"
     * Metal_03.wav
@@ -276,6 +277,7 @@ The original sources of our mixed samples are:
 
 Editing/(re)mixing was done by:
  - Janis Lukss ("Pendrokar" at "wiki.openttd.org")
+ - "janusz" from "dev.openttdcoop.org"
  - "Jklamo" from "wiki.opentd.org"
  - Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
  - Richard Wheeler ("Zephyris" at "dev.openttdcoop.org")
