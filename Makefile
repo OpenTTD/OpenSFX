@@ -47,7 +47,7 @@ TAR_FILENAME   = $(DIR_NAME).$(TAR_SUFFIX)
 ZIP_FILENAME   = $(DIR_BASE)$(VERSION_STRING).$(ZIP_SUFFIX)
 BZIP_FILENAME  = $(DIR_BASE)$(VERSION_STRING).$(BZIP2_SUFFIX)
 
-REPO_DIRS    = $(dir $(BUNDLE_FILES))
+REPO_DIRS      = $(dir $(BUNDLE_FILES))
 
 -include ${MAKEFILELOCAL}
 
@@ -60,7 +60,7 @@ vpath %.nfo $(SRCDIR)
 # Now, the fun stuff:
 
 # Target for all:
-all : $(OBS_FILE)
+all : test_rev $(OBS_FILE)
 
 test :
 	$(_E) "Call of catcodec:             $(CATCODEC) $(CATCODEC_FLAGS)"
@@ -77,7 +77,7 @@ test :
 	$(_E) "Path to Unix2Dos:             $(UNIX2DOS)"
 	$(_E) "===="
 
-$(OBS_FILE) : $(SRCDIR)/$(CAT_FILENAME) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME)
+$(OBS_FILE) : $(SRCDIR)/$(CAT_FILENAME) $(DESC_FILENAME) $(README_FILENAME) $(CHANGELOG_FILENAME) $(LICENSE_FILENAME) $(REV_FILENAME)
 	$(_E) "[Generating:] $(OBS_FILE)"
 	@echo "[metadata]" > $(OBS_FILE)
 	@echo "name        = $(CAT_NAME)" >> $(OBS_FILE)
@@ -98,6 +98,12 @@ $(OBS_FILE) : $(SRCDIR)/$(CAT_FILENAME) $(DESC_FILENAME) $(README_FILENAME) $(CH
 	@echo "$(CAT_ORIGIN)" >> $(OBS_FILE)
 	$(_E) "[Done] Basesound successfully generated."
 	$(_E) ""
+
+$(REV_FILENAME):
+	echo "$(CAT_REVISION)" > $(REV_FILENAME)
+test_rev:
+	@echo "[Version check]"
+	@echo "$(shell [ "`cat $(REV_FILENAME)`" = "$(VERSION_STRING)" ] && echo "No change." || (echo "Change detected." && echo "$(VERSION_STRING)" > $(REV_FILENAME)))"
 
 %.$(DEP_SUFFIX) : $(SRCDIR)/%.$(SFO_SUFFIX)
 	$(_E) "[Depend] $(@:$(DEP_SUFFIX)=$(CAT_SUFFIX))"
