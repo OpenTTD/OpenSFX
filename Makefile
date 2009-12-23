@@ -180,7 +180,8 @@ bundle_src:
 
 
 $(INSTALLDIR):
-	$(_E) "$(error Installation dir does not exist. Check your makefile.local)"
+	$(_E) "Install dir didn't exist. Creating $@"
+	$(_V) mkdir -p $(INSTALLDIR)
 
 release-install:
 	$(_E) "Target is obsolete. Use 'install' instead."
