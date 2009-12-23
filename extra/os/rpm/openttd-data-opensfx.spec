@@ -1,6 +1,6 @@
 
 Name:           openttd-data-opensfx
-Version:        0.2.0
+Version:        0.2.1
 %define srcver  %{version}
 Release:        1%{?dist}
 Summary:        OpenSFX replacement sounds for OpenTTD
@@ -19,7 +19,7 @@ Provides:       opensfx
 
 %description
 OpenSFX replacement sounds for OpenTTD. The last required step
-to make OpenTTD independent.. 
+to make OpenTTD independent..
 
 %prep
 %setup -qn opensfx-%{srcver}-source
@@ -42,6 +42,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/openttd/data/opensfx-%{srcver}.tar
 
 %changelog
+* Wed Dec 23 2009 Marcel Gmür <ammler@openttdcoop.org> - 0.2.1
+- upstream update 0.2.1
 * Sun Dec 13 2009 Marcel Gmür <ammler@openttdcoop.org> - 0.2.0
 - rename the package and provide the old name
 - only openttd-data is required (no X)

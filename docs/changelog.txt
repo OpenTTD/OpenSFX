@@ -1,3 +1,9 @@
+0.2.1 (2009-12-23)
+------------------------------------------------------------------------
+Improve sample for the level crossing
+Improvements to the build system
+
+
 0.2.0 (2009-12-09)
 ------------------------------------------------------------------------
 First release with all samples completed.
