@@ -83,7 +83,7 @@ $(OBS_FILE) : $(SRCDIR)/$(CAT_FILENAME) $(DESC_FILENAME) $(README_FILENAME) $(CH
 	@echo "name        = $(CAT_NAME)" >> $(OBS_FILE)
 	@echo "shortname   = $(CAT_SHORTNAME)" >> $(OBS_FILE)
 	@echo "version     = $(CAT_REVISION)" >> $(OBS_FILE)
-	@echo "description = $(CAT_DESCRIPTION) [$(CAT_TITLE)]" >> $(OBS_FILE)
+	$(_V) cat $(DESC_FILENAME) | sed 's/$$/ [$(CAT_TITLE)]/' >> $(OBS_FILE)
 
 	@echo "" >> $(OBS_FILE)
 	@echo "[files]" >> $(OBS_FILE)
