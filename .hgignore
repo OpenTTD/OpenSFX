@@ -1,8 +1,9 @@
 REV
-opensfx-nightly
+opensfx-
 opensfx.obs
-opensfx.d
 src/opensfx.cat
-src/opensfx.sfo.orig
+.orig
+.rej
 Makefile.local
-
+Makefile.dep
+opensfx.cat
