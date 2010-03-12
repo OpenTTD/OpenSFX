@@ -33,6 +33,13 @@ free game (with "free" as in both "free beer" and "open source").
 OpenSFX is licensed under the Creative Commons Sampling Plus 1.0 License.
 You can find the full text in license.txt.
 
+This license has been chosen as the majority all of the original samples
+are licensed under the Creative Commons Sampling Plus 1.0 License with
+the exception of a single original sample under public domain. If you
+are interested in this package having a more free license, i.e. a
+license that is deemed free by Debian, Fedora and the other Linux
+distributions, you have to either contact the original authors and ask
+them to relicense them or redo the samples that are licensed more free.
 
 2.0) Installing
 ==== ==========
@@ -41,7 +48,12 @@ only cover the official download locations. We cannot support third
 party download locations and we cannot refund your money if you have
 paid money for OpenSFX.
 
-There's two places where you can get the latest stable release:
+There are three ways to get the latest stable release:
+  * If you're new to OpenTTD, you don't have access to the original
+    TTD files and you are using the Windows installer to install
+    OpenTTD you can select OpenSFX to be downloaded during the
+    installation of OpenTTD.
+
   * If you're new to OpenTTD and don't have access to the original
     TTD files, you'll have to download and install OpenSFX manually.
     This is really not that difficult as it may sound, so don't
@@ -74,7 +86,7 @@ There's two places where you can get the latest stable release:
 2.1) Installing OpenSFX Manually
 ==== ===========================
 1. First, make sure that you've downloaded and installed at least
-   OpenTTD version 0.8.0 or a recent nightly.
+   OpenTTD version 1.0.0 or a recent nightly.
 2. Next, download the latest OpenSFX package. (stable nightly)
 3. Unpack the zip into the OpenTTD's /data directory. There's no
    need to unpack the tar file, so just leave it as it is. Your
@@ -99,7 +111,7 @@ There's two places where you can get the latest stable release:
 ==== ===============================================================
 This method uses the Online content service (BaNaNaS) to download OpenSFX.
 In order to use this, you need a working OpenTTD and again at least
-OpenTTD version 0.8.0 or a recent nightly.
+OpenTTD version 0\1.0.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check online content
    button. A new window will pop up.
@@ -125,6 +137,8 @@ download the source in bz2, zip or gz format from:
 > http://mz.openttdcoop.org/hg/opensfx
 You can use Mercurial to do an anonymous checkout from the same address:
 > hg clone http://mz.openttdcoop.org/hg/opensfx
+For releases you can download the (released) tarballs from:
+> http://bundles.openttdcoop.org/opensfx/releases/
 
 3.1) Compiling the source
 ==== ====================
