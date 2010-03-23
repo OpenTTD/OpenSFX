@@ -1,4 +1,4 @@
-.PHONY: clean mrproper test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs
+.PHONY: clean mrproper test all depend bundle bundle_src bundle_zip bundle_tar bundle_bzip docs check
 .DEFAULT:
 
 # Clean the source tree
@@ -6,10 +6,10 @@ clean:
 	$(_E) "[Cleaning]"
 	$(_V)-rm -rf *.orig *.pre *.bak *.grf *~
 	$(_V)-rm -rf $(MAKEFILE_DEP) $(MAIN_TARGET) $(SRC_DIR)/*.nfo $(DOC_FILENAMES) $(REV_FILENAME)
-	$(_V)-rm -rf $(CLEAN_ADD) $(MD5_FILENAME)
+	$(_V)-rm -rf $(CLEAN_ADD)
 
 mrproper: clean
-	$(_V)-rm -rf $(DIR_BASE)* $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC)
+	$(_V)-rm -rf $(DIR_BASE)* $(SRC_DIR)/$(FILENAME_STUB) $(DIR_NAME_SRC) $(MD5_FILENAME)
 
 # Print the output for a number of variables which define this newgrf.
 test : 
@@ -58,9 +58,6 @@ endif
 	$(_E) "[Generating] $@"
 	$(_V) $(GRFCODEC) ${GRFCODEC_FLAGS} $(notdir $@)
 
-$(REV_FILENAME):
-	$(_V) touch $@
-
 # .INTERMEDIATE: %.nfo
 # .PRECIOUS: %.nfo
 .SECONDARY: %.nfo
@@ -89,7 +86,13 @@ $(REV_FILENAME):
 docs: $(DOC_FILES)
 
 # Create the dependencies
-depend:
+%.$(REV_EXTENSION):
+	$(_E) "Version change detected. Re-build forced."
+	$(_V) [ -e *.$(REV_EXTENSION) ] && rm *.$(REV_EXTENSION) || echo ""
+	$(_V) touch $@
+
+depend: $(REV_FILENAME)
 	$(_E) "[Generating] $(MAKEFILE_DEP)"
 	$(_V) echo "$(SRC_DIR)/$(MAIN_FILENAME_SRC): "`cat $(SRC_DIR)/$(MAIN_FILENAME_SRC) | $(AWK) 'BEGIN { FS = " " } ; { print $$1 }' | grep 'wav' | grep -v '^//' | sed 's/"//g' | sort | uniq` > $(MAKEFILE_DEP)
 	$(_V) [ -e $(REV_FILENAME) ] && [ "`cat $(REV_FILENAME)`" == "$(VERSION_STRING)" ] || echo "$(VERSION_STRING)" > $(REV_FILENAME)
+
