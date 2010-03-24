@@ -1,6 +1,6 @@
 OpenSFX README
-Last updated:    2009-12-23
-Release version: {{REPO_TITLE}} 
+Last updated:    2010-03-24
+Release version: {{REPO_TITLE}}
 ------------------------------------------------------------------------
 
 Table of Contents:
@@ -21,12 +21,13 @@ Table of Contents:
 OpenSFX is a set of base sounds for OpenTTD and is the result of the
 "Sound Effects Replacement" project.
 
-OpenSFX is an open source replacement for the original TTD (Transport
-Tycoon Deluxe) base sounds used by OpenTTD. The main goal of OpenSFX
-therefore is to provide a set of free sounds which make it possible to
-play OpenTTD without requiring the (copyrighted) files from the TTD cd.
-This potentially increases the OpenTTD fanbase and makes it a true
-free game (with "free" as in both "free beer" and "open source").
+OpenSFX is an open source replacement for the original Transport Tycoon
+Deluxe base sounds used by OpenTTD. The main goal of OpenSFX therefore
+is to provide a set of free sounds which make it possible to play
+OpenTTD without requiring the (copyrighted) files from the Transport
+Tycoon Deluxe cd. This potentially increases the OpenTTD fanbase and
+makes it a true free game (with "free" as in both "free beer" and "open
+source").
 
 1.1) License
 ==== =======
@@ -39,7 +40,8 @@ the exception of a single original sample under public domain. If you
 are interested in this package having a more free license, i.e. a
 license that is deemed free by Debian, Fedora and the other Linux
 distributions, you have to either contact the original authors and ask
-them to relicense them or redo the samples that are licensed more free.
+them to relicense them or redo the samples so they can licensed under a
+license that is deemed free.
 
 2.0) Installing
 ==== ==========
@@ -49,23 +51,23 @@ party download locations and we cannot refund your money if you have
 paid money for OpenSFX.
 
 There are three ways to get the latest stable release:
-  * If you're new to OpenTTD, you don't have access to the original
-    TTD files and you are using the Windows installer to install
-    OpenTTD you can select OpenSFX to be downloaded during the
-    installation of OpenTTD.
+  * If you are new to OpenTTD, you do not have access to the original
+    Tranport Tycoon Deluxe files and you are using the Windows installer
+    to install OpenTTD you can select OpenSFX to be downloaded during
+    the installation of OpenTTD.
 
-  * If you're new to OpenTTD and don't have access to the original
-    TTD files, you'll have to download and install OpenSFX manually.
-    This is really not that difficult as it may sound, so don't
-    worry too much about that.
+  * If you are new to OpenTTD and do not have access to the original
+    Tranport Tycoon Deluxe files, you will have to download and install
+    OpenSFX manually. This is really not that difficult as it may
+    sound, so do not worry too much about that.
       o Download location:
           http://mz.openttdcoop.org/bundles/opensfx/releases/
       o Installation instructions:
           Installing OpenSFX Manually.
 
   * If you already have OpenTTD up and running using the original
-    TTD base graphics, the ingame Online Content service is the easy
-    way to obtain OpenSFX.
+    Tranport Tycoon Deluxe files, the ingame Online Content service is
+    the easy way to obtain OpenSFX.
       o Download location:
           use the ingame Online content service
       o Installation instructions:
@@ -73,9 +75,9 @@ There are three ways to get the latest stable release:
 
   * Just like OpenTTD, there are nightly builds of OpenSFX available
     as well. Every evening around 18:18 CE(S)T a new build of OpenSFX
-    is created automatically (if there's something new that is).
-    Unlike stable releases these builds aren't tested to see if they
-    work, but if a nightly doesn't work, it doesn't break anything
+    is created automatically (if there is something new that is).
+    Unlike stable releases these builds are not tested to see if they
+    work, but if a nightly does not work, it does not break anything
     either. Keep a stable or working nightly sitting in the /data dir
     and just delete a broken nightly to get OpenSFX working again.
       o Download location:
@@ -85,10 +87,10 @@ There are three ways to get the latest stable release:
 
 2.1) Installing OpenSFX Manually
 ==== ===========================
-1. First, make sure that you've downloaded and installed at least
+1. First, make sure that you have downloaded and installed at least
    OpenTTD version 1.0.0 or a recent nightly.
 2. Next, download the latest OpenSFX package. (stable nightly)
-3. Unpack the zip into the OpenTTD's /data directory. There's no
+3. Unpack the zip into the OpenTTD's /data directory. There is no
    need to unpack the tar file, so just leave it as it is. Your
    OpenTTD /data directory is either located in:
       * An OpenTTD folder in your user account's home directory:
@@ -102,10 +104,10 @@ There are three ways to get the latest stable release:
 6. Select OpenSFX from the drop-down list below Base sound set if
    that's not selected already (bottom left of window). Close the
    window using the × in the upper left corner.
-      * If you did not install the original TTD base sounds during
-       the installation of OpenTTD, you can skip this step.
-      * If you installed the original TTD base sounds as well, this
-       is where you can switch base sound sets.
+      * If you did not install the original Tranport Tycoon Deluxe base
+        sounds during the installation of OpenTTD, you can skip this step.
+      * If you installed the original Tranport Tycoon Deluxe base sounds
+        as well, this is where you can switch base sound sets.
 
 2.2) Installing or Updating OpenSFX using the Online Content service
 ==== ===============================================================
@@ -115,7 +117,7 @@ OpenTTD version 0\1.0.0 or a recent nightly.
 
 1. Start OpenTTD and on the main menu click the Check online content
    button. A new window will pop up.
-      * If OpenTTD doesn't start, follow the manual installation procedure.
+      * If OpenTTD does not start, follow the manual installation procedure.
 2. Find the OpenSFX entry from the list at the left. You can use the
    search box in the upper right corner of the window.
 3. Click the little square in front of the OpenSFX entry in order to
@@ -125,7 +127,7 @@ OpenTTD version 0\1.0.0 or a recent nightly.
 5. In the main menu of the game, click the Game Options button. The Game
    Options dialog will appear.
 6. Select OpenSFX from the drop-down list below Base sound set if
-   that's not selected already (bottom left of window). Close the
+   that is not selected already (bottom left of window). Close the
    window using the × in the upper left corner.
       * This is where you can switch base sound sets.
 
@@ -154,7 +156,7 @@ If you want to package you also need tar, zip and possibly bzip2.
 3.2) Contributing
 ==== ============
 Contributing to OpenSFX can be done in several ways, but they generally end
-up with providing (improved) samples for the set. If you've got a better
+up with providing (improved) samples for the set. If you have got a better
 sample than we currently have you can make that know via an issue at:
 > http://dev.openttdcoop.org/projects/opensfx/issues/new
 Please mention who made the original samples and that the sample has been
