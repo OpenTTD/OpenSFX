@@ -8,3 +8,4 @@ Makefile.local
 Makefile.dep
 opensfx.cat
 opensfx.sfo
+docs/readme.txt
