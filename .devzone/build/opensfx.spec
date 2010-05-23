@@ -12,7 +12,7 @@ Source0:        %{name}-%{srcver}.tar
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 
-BuildRequires:  catcodec
+BuildRequires:  catcodec mercurial p7zip
 
 Provides:       openttd-%{name} openttd-data-%{name}
 
@@ -26,7 +26,7 @@ to make OpenTTD independent..
 %build
 make
 # following make needed for DevZone building only:
-make bundle_src bundle_zip 
+make bundle_src bundle_zip ZIP="7za a" ZIP_FLAGS="-tzip -mx9" 1>%{name}-%{version}-build.log 2>%{name}-%{version}-build.err.log 
 
 %install
 make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/
