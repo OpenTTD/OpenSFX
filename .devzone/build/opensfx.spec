@@ -22,6 +22,11 @@ to make OpenTTD independent..
 
 %prep
 %setup -qn %{name}
+# DevZone stuff:
+case %{version} in
+        r*)     ;;
+        *)      hg update %{version}
+esac
 
 %build
 make
@@ -38,7 +43,7 @@ make install INSTALL_DIR=%{buildroot}%{_datadir}/openttd/data/
 %doc docs/*.txt
 %dir %{_datadir}/openttd
 %dir %{_datadir}/openttd/data
-%{_datadir}/openttd/data/opensfx-%{srcver}.tar
+%{_datadir}/openttd/data/opensfx*.tar
 
 %changelog
 
