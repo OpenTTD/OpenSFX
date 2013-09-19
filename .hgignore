@@ -1,11 +1,9 @@
 REV
 opensfx-
 opensfx.obs
-src/opensfx.cat
 .orig
 .rej
-Makefile.local
-Makefile.dep
 opensfx.cat
-opensfx.sfo
+opensfx
+opensfx.tar
 docs/readme.txt
