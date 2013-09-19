@@ -39,3 +39,4 @@ sound: $(OBS_FILE)
 clean::
 	$(_V) -rm $(OBS_FILE)
 	$(_V) -rm $(SOUND_FILE)
+	$(_V) -rm src/$(SOUND_FILE)
