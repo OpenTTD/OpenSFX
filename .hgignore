@@ -7,3 +7,4 @@ opensfx.cat
 opensfx
 opensfx.tar
 docs/readme.txt
+Makefile.fordist
