@@ -5,6 +5,8 @@
 # 		-e "s/$(OUTPUT_FILENAME_DUMMY)/$(FILENAME)/" -e "s/$(REPO_REVISION_DUMMY)/$(REPO_REVISION)/" \
 # 		$< > $@
 
+MD5SUM         ?= $(shell which md5sum 2>/dev/null)
+
 $(SOUND_FILE): $(SRC_DIR)/$(BASE_FILENAME).sfo $(SOUND_FILES) Makefile Makefile.in Makefile.config
 # replace the place holders for version and name by the respective variables:
 	$(_E) "[Generating] $@ with dep $^"
@@ -12,6 +14,7 @@ $(SOUND_FILE): $(SRC_DIR)/$(BASE_FILENAME).sfo $(SOUND_FILES) Makefile Makefile.
 	$(_V) $(CATCODEC) $(CATCODEC_FLAGS) $(SRC_DIR)/$@
 	$(_V) cp $(SRC_DIR)/$@ .
 
+ifneq ("$(shell which $(MD5SUM) 2>/dev/null)","")
 $(OBS_FILE): $(SOUND_FILE) $(LANG_FILES) Makefile Makefile.in Makefile.config
 	$(_E) "[Generating:] $@"
 	@echo "[metadata]" > $@
@@ -33,6 +36,11 @@ $(OBS_FILE): $(SOUND_FILE) $(LANG_FILES) Makefile Makefile.in Makefile.config
 	@echo "$(REPO_ORIGIN)" >> $@
 	$(_E) "[Done] Base sound set successfully generated."
 	$(_E) ""
+else
+$(OBS_FILE):
+	$(_E) "[Generating:] $@"
+	$(error Missing md5sum. It's needed to generate $@)
+endif
 
 sound: $(OBS_FILE)
 
