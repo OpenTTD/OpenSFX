@@ -1,2 +1,4 @@
 ##grflangid 0x22
+##plural 0
+##gender Masculin Femenin
 STR_GENERAL_DESC        :Joc substitut de sons OpenSFX per a OpenTTD. Disponible lliurement sota els termes de la llicència Creative Commons Sampling Plus 1.0. Conté mostres de "freesound.org" i "pdsound.org". Per veure els crèdits sencers veure "readme.txt". [{TITLE}]

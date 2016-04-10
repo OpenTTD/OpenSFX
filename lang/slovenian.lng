@@ -1,2 +1,4 @@
 ##grflangid 0x2c
+##plural 8
+##case r d t
 STR_GENERAL_DESC        :Projekt zamenjave zvokov OpenSFX za OpenTTD. Na voljo zastonj pod pogoji licence Creative Commons Sampling Plus 1.0 License. Vsebuje primere iz "freesound.org" in "pdsound.org". Za vse zahvale poglejte datoteko "readme.txt". [{TITLE}]

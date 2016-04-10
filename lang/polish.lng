@@ -1,2 +1,5 @@
 ##grflangid 0x30
+##plural 7
+##gender n m f
+##case c b d m n w
 STR_GENERAL_DESC        :OpenSFX to zestaw zastępujący dźwięki dla OpenTTD. Dostępny na warunkach licencji Creative Commons Sampling Plus 1.0. Zawiera próbki dźwięków z "freesound.org" oraz "pdsound.org". Lista wszystkich autorów znajduje się w pliku "readme.txt". [{TITLE}]

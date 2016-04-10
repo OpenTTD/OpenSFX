@@ -1,2 +1,5 @@
 ##grflangid 0x07
+##plural 6
+##gender p n m f
+##case acc nom pre f abl m n dat p gen
 STR_GENERAL_DESC        :OpenSFX представляет собой набор звукового оформления для OpenTTD. Свободно распространяется в соответствии с лицензией Creative Commons Sampling Plus 1.0 License. В наборе используются материалы сайтов "freesound.org" и "pdsound.org". Более подробную информацию о создателях набора можно узнать в документе "readme.txt". [{TITLE}]

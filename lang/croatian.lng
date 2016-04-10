@@ -1,2 +1,5 @@
 ##grflangid 0x38
+##plural 6
+##gender middle male female
+##case nom lok aku vok dat ins gen
 STR_GENERAL_DESC        :OpenSFX zamjenski zvučni paket za OpenTTD. Dostupan besplatno pod uvjetima Creative Commons Sampling Plus 1.0 licence. Sadrži uzorke iz "freesound.org" i "pdsound.org". Za sve zasluge vidi "readme.txt". [{TITLE}]
