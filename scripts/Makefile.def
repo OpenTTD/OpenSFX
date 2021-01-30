@@ -33,7 +33,7 @@ SRCZIP         ?= gzip
 BZIP           ?= bzip2
 CC             ?= gcc
 AWK            ?= awk
-HG             ?= hg
+GIT            ?= git
 MAKE           ?= make
 UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
@@ -91,14 +91,16 @@ endif
 # a release build (taged version): GRF's Name 0.1
 ################################################################
 DEFAULT_BRANCH_NAME ?= nightly
-REPO_REVISION ?= $(shell $(HG) id -n | cut -d+ -f1)
-REPO_MODIFIED ?= $(shell [ "`$(HG) id | cut -c13`" = "+" ] && echo "M" || echo "")
-REPO_BRANCH   ?= $(shell $(HG) id -b | sed "s/default/$(DEFAULT_BRANCH_NAME)/")
-REPO_TAGS     ?= $(shell $(HG) id -t | grep -v "tip")
-REPO_FILES_CMD := $(HG) st -A | grep -v  "^I" | grep -v "^?" | grep -v "^R" | grep -v "^\!" | cut -d\  -f2
-REPO_FILES    ?= $(shell $(REPO_FILES_CMD))
-REPO_DIRS     ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
-REPO_TITLE    := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
+REPO_HASH      ?= $(shell $(GIT) log -n1 --pretty="format:%h")
+REPO_REVISION  := $(REPO_HASH)
+TEMP_GITSTATUS ?= $(shell $(GIT) status --porcelain=v2 | grep "^[12]")
+REPO_MODIFIED  ?= $(shell [ -z "$TEMP_GITSTATUS" ] && echo "" || echo "M")
+REPO_BRANCH    ?= $(shell $(GIT) status -b --porcelain=v2 | grep "^# branch\.head" | tail -c7)
+REPO_TAGS      ?= $(shell echo "")
+REPO_FILES_CMD := $(GIT) ls-tree -r master --name-only
+REPO_FILES     ?= $(shell $(REPO_FILES_CMD))
+REPO_DIRS      ?= $(shell for i in $(REPO_FILES); do dirname $$i; done | sort | uniq)
+REPO_TITLE     := $(REPO_NAME) $(shell [ -n "$(REPO_TAGS)" ] && echo $(REPO_TAGS)$(REPO_MODIFIED) || echo $(REPO_BRANCH)-r$(REPO_REVISION)$(REPO_MODIFIED))
 
 ################################################################
 # Rules on how to generate filenames. Usually no need to change
@@ -143,7 +145,7 @@ MAIN_DIRS           = $(SRC_DIR) $(DOC_DIR) $(SCRIPT_DIR) $(TEMPLATE_DIR) $(LANG
 
 FILE_SRC_RE        := $(shell echo $(FILE_SRC_EXTENSIONS) | tr -s "[:space:]" "|")
 FILE_INC_RE        := $(shell echo $(FILE_INC_EXTENSIONS) | tr -s "[:space:]" "|")
-FILES_NOT_PACK_RE  := "(\.hgignore|\.hgtags|backup\.push|\.devzone)"
+FILES_NOT_PACK_RE  := "(\.gitignore|backup\.push|\.devzone)"
 
 # Remove the @ when you want a more verbose output.
 _V ?= @

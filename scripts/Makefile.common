@@ -141,4 +141,4 @@ endif
 
 addcheck:
 	$(_E) "[Checking] for missing repo files:"
-	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do hg st $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
+	$(_V) for i in `$(REPO_FILES_CMD) | grep -E '($(FILE_SRC_RE)grf)$$'`; do git status $$i `for j in $(FILE_SRC_EXTENSIONS) $(FILE_INC_EXTENSIONS); do cat $$i |  grep -v '^//' | grep -o "[a-zA-Z0-9/_.-]\+\.$$j" | sort | uniq; done`; done | sort | uniq  | grep "^?" && echo "Missing dependencies!" || echo "All is fine"
