@@ -1,5 +1,5 @@
 OpenSFX README
-Last updated:    2021-01-25
+Last updated:    2021-02-03
 Release version: {{REPO_TITLE}}
 ------------------------------------------------------------------------
 
@@ -354,6 +354,7 @@ Editing/(re)mixing was done by:
 * "Jklamo" from "wiki.openttd.org"
 * Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
 * Richard Wheeler ("Zephyris" at "dev.openttdcoop.org")
+* "Wuzzy" from "tt-forums.net"
 
 A detailed list of who has worked on what sample is available in the
 file "src/opensfx.sfo" in the source repository.
