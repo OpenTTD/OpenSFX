@@ -1,5 +1,5 @@
 OpenSFX README
-Last updated:    2021-02-04
+Last updated:    2021-02-10
 Release version: {{REPO_TITLE}}
 ------------------------------------------------------------------------
 
@@ -30,45 +30,27 @@ OpenSFX is a replacement for the original Transport Tycoon Deluxe
 base sounds used by OpenTTD. The main goal of OpenSFX therefore
 is to provide a set of free sounds which make it possible to play
 OpenTTD without requiring the (copyrighted) files from the Transport
-Tycoon Deluxe CD. This potentially increases the OpenTTD fanbase.
+Tycoon Deluxe CD.
 
-Currently, the OpenSFX sounds are free as as in 'free beer' but
-not as in 'freedom' as OpenSFX is licensed under a legacy license
-that is universally considered to be 'non-free' by the free software
-and open source communities because it is too restrictive.
-We hope to fix that eventually and turn OpenSFX into a sound pack
-that is also 'free as in freedom'.
+The OpenSFX sounds are free as in 'free beer' and free
+as in 'freedom'.
 
 1.1) License
 ==== =======
-OpenSFX is licensed under the Creative Commons Sampling Plus 1.0 License.
-You can find the full text in license.txt.
+OpenSFX is free software, you are allowed to freely use, copy, modify and
+share this, even commercially, as long you follow the licenses.
 
-1.1.1) Background
-====== ==========
-Note this license is at odds with free software values. For instance,
-it vaguely forbids using the work in "advertisement", which is a major
-restriction. Even the Creative Commons organization discourages it now.
+The OpenSFX sounds are licensed under the
+    Creative Commons Attribution-ShareAlike 3.0 Unported
+license.
 
-Historically, this license has been chosen as it was believed the
-majority all of the original samples were licensed under the
-Creative Commons Sampling Plus 1.0 License with the exception of a single
-original sample under public domain. However, on further investigation
-it turned out that this assumption was wrong, only a fraction of the
-original samples actually carry this license. But there are still
-a few sounds under that license left.
-Another reason is that the people who did the mixing and sound editing
-agreed on Sampling Plus and that hasn't been changed since.
-And for those reasons, OpenSFX is still stuck with Sampling Plus.
+All other files, including text files, scripts, etc. are
+dual-licensed under:
+    GNU General Public License version 2 (or later)
+and
+    Common Development and Distribution License 1.1.
 
-If you are interested in this package having a 'truly' free license, i.e.
-a license that is deemed free by Debian, Fedora and the other Linux
-distributions, you have to either contact the original authors of the
-'non-libre' sounds and ask them to relicense them or redo the samples
-so they can licensed under a license that is deemed free.
-
-If you want to help us, please visit
-<https://github.com/OpenTTD/OpenSFX/>.
+You can find the full license texts in license.txt.
 
 2.0) Installing
 ==== ==========
@@ -88,42 +70,29 @@ There are three ways to get the latest stable release:
     OpenSFX manually. This is really not that difficult as it may
     sound, so do not worry too much about that.
       o Download location:
-          http://mz.openttdcoop.org/bundles/opensfx/releases/
+          https://www.openttd.org/downloads/opensfx-releases/latest.html
       o Installation instructions:
           Installing OpenSFX Manually.
 
-  * If you already have OpenTTD up and running using the original
-    Tranport Tycoon Deluxe files, the ingame Online Content service is
-    the easy way to obtain OpenSFX.
+  * If you already have OpenTTD up and running, the in-game Online Content
+    service is the easy way to obtain OpenSFX.
       o Download location:
-          use the ingame Online content service
+          use the in-game Online content service
       o Installation instructions:
           Installing OpenSFX using the Online Content service.
-
-  * Just like OpenTTD, there are nightly builds of OpenSFX available
-    as well. Every evening around 18:18 CE(S)T a new build of OpenSFX
-    is created automatically (if there is something new that is).
-    Unlike stable releases these builds are not tested to see if they
-    work, but if a nightly does not work, it does not break anything
-    either. Keep a stable or working nightly sitting in the /data dir
-    and just delete a broken nightly to get OpenSFX working again.
-      o Download location:
-          http://mz.openttdcoop.org/bundles/opensfx/nightlies/
-      o Installation instructions:
-          Installing OpenSFX Manually.
 
 2.1) Installing OpenSFX Manually
 ==== ===========================
 1. First, make sure that you have downloaded and installed at least
    OpenTTD version 1.0.0 or a recent nightly.
 2. Next, download the latest OpenSFX package. (stable nightly)
-3. Unpack the zip into the OpenTTD's /data directory. There is no
+3. Unpack the zip into the OpenTTD's /baseset directory. There is no
    need to unpack the tar file, so just leave it as it is. Your
-   OpenTTD /data directory is either located in:
+   OpenTTD /baseset directory is either located in:
       * An OpenTTD folder in your user account's home directory:
-          o Windows: C:\Documents and Settings\<username>\My Documents\OpenTTD
-          o Mac OSX: ~/Documents/OpenTTD
-          o Linux: ~/.openttd
+          * Windows: C:\Users\<username>\Documents\OpenTTD
+          * macOS: ~/Documents/OpenTTD
+          * GNU/Linux: ~/.openttd
       * The OpenTTD installation directory.
 4. Run OpenTTD.
 5. In the main menu of the game, click the Game Options button.
@@ -139,8 +108,7 @@ There are three ways to get the latest stable release:
 2.2) Installing or Updating OpenSFX using the Online Content service
 ==== ===============================================================
 This method uses the Online content service (BaNaNaS) to download OpenSFX.
-In order to use this, you need a working OpenTTD and again at least
-OpenTTD version 0\1.0.0 or a recent nightly.
+In order to use this, you need a working OpenTTD (at least 1.0.0).
 
 1. Start OpenTTD and on the main menu click the Check online content
    button. A new window will pop up.
@@ -161,13 +129,11 @@ OpenTTD version 0\1.0.0 or a recent nightly.
 
 3.0) Obtaining the source
 ==== ====================
-The OpenSFX source is available in a Mercurial repository. You can
-download the source in bz2, zip or gz format from:
-> http://mz.openttdcoop.org/hg/opensfx
-You can use Mercurial to do an anonymous checkout from the same address:
-> hg clone http://mz.openttdcoop.org/hg/opensfx
+The OpenSFX source is available in a Git repository.
+You can use Git to do a checkout from this address:
+> git clone https://github.com/OpenTTD/OpenSFX.git
 For releases you can download the (released) tarballs from:
-> http://bundles.openttdcoop.org/opensfx/releases/
+> https://www.openttd.org/downloads/opensfx-releases/latest.html
 
 3.1) Compiling the source
 ==== ====================
@@ -177,7 +143,7 @@ For compiling the source you need:
  * md5sum
  * cut
  * a sh compatible shell
- * hg (Mercurial) if you want it to be properly versioned
+ * git if you want it to be properly versioned
 If you want to package you also need tar, zip and possibly bzip2.
 
 3.2) Contributing
@@ -185,11 +151,12 @@ If you want to package you also need tar, zip and possibly bzip2.
 Contributing to OpenSFX can be done in several ways, but they generally end
 up with providing (improved) samples for the set. If you have got a better
 sample than we currently have you can make that know via an issue at:
-> http://dev.openttdcoop.org/projects/opensfx/issues/new
+> https://github.com/OpenTTD/OpenSFX/issues
 Please mention who made the original samples and that the sample has been
-released under the Creative Commons Sampling Plus 1.0 License or a license
-that allows us to release it under that license.
-
+released under the Creative Commons Attribution-ShareAlike 3.0 Unported
+license or a license that allows us to release it under that license
+(for example, Creative Commons Attribution 3.0 Unported or
+Creative Commons Zero 1.0).
 
 4.0) Credits
 ==== =======
@@ -197,9 +164,6 @@ Most sounds come from freesound.org and pdsounds.org and were edited
 by OpenTTD contributors in order to make them suitable for the game. Most
 source sounds have been released under libre licenses like CC BY 3.0,
 allowing sharing and remixing.
-However, the actual sounds in OpenSFX also have the editor(s) as
-co-author(s), thus the real OpenSFX sounds do not fall under these
-libre licenses, but under the CC Sampling Plus 1.0 license.
 
 To see detailed license info about the actual sound files in OpenSFX,
 see "src/opensfx.sfo" in the source repository.
@@ -371,11 +335,12 @@ file "src/opensfx.sfo" in the source repository.
 ==== =============
 This is a list of sound creators that contributed
 their work directly to OpenSFX:
+* Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
+    * Started the OpenSFX project, author of the initial scripts,
+      text files, chose most of the initial sounds
 * Janis Lukss ("Pendrokar" at "wiki.openttd.org")
     * Own recordings/mixes
 * Timo A. Hummel ("Felicitus" at "dev.openttdcoop.org")
-    * Own work
-* Remko Bijker ("Rubidium" at "dev.openttdcoop.org")
     * Own work
 
 4.4) License reference
@@ -385,8 +350,8 @@ You can find the complete license texts here:
 * CC0 1.0: <https://creativecommons.org/publicdomain/zero/1.0/>
 * CC BY 3.0: <http://creativecommons.org/licenses/by/3.0/>
 * CC BY-SA 3.0: <http://creativecommons.org/licenses/by-sa/3.0/>
-* CC BY-NC 3.0: <http://creativecommons.org/licenses/by-nc/3.0/>
-* CC Sampling Plus 1.0: <https://creativecommons.org/licenses/sampling+/1.0/>
+* GNU GPLv2: <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+* CDDL 1.1: <https://spdx.org/licenses/CDDL-1.1.html>
 
 5.0) Acknowledgements
 ==== ================
