@@ -1,3 +1,9 @@
+1.0.0 (TBD)
+------------------------------------------------------------------------
+-Change: Many sounds were replaced and reworked
+-Change: New licenses: CC BY-SA 3.0, GPLv2+, CDDL 1.1 (was: CC Sampling Plus)
+
+
 0.2.3 (2010-03-31)
 ------------------------------------------------------------------------
 -Fix: Do not rebuild the md5sums file which one wants to check against
