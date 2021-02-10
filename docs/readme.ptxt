@@ -138,7 +138,7 @@ For releases you can download the (released) tarballs from:
 3.1) Compiling the source
 ==== ====================
 For compiling the source you need:
- * catcodec (http://www.openttd.org/download-catcodec)
+ * catcodec (https://www.openttd.org/download-catcodec)
  * (GNU) make
  * md5sum
  * cut
@@ -227,7 +227,7 @@ and the URL (if available) are given, in this order.
 * "marvman" from "freesound.org"
     * shaker2.wav <https://freesound.org/people/marvman/sounds/51317/>
 * Jan Schupke alias "Vehicle" from "opengameart.org"
-    * vial-glass-square-cinnamon-sticks-open-02.wav <http://opengameart.org/content/fantasy-accessory-sfx-library>
+    * vial-glass-square-cinnamon-sticks-open-02.wav <https://opengameart.org/content/fantasy-accessory-sfx-library>
 * "Mark_Ian" from "freesound.org"
     * RRCrossing.wav <https://freesound.org/people/Mark_Ian/sounds/240639/>
 * "Beviceps" from "freesound.org"
@@ -348,8 +348,8 @@ their work directly to OpenSFX:
 You can find the complete license texts here:
 
 * CC0 1.0: <https://creativecommons.org/publicdomain/zero/1.0/>
-* CC BY 3.0: <http://creativecommons.org/licenses/by/3.0/>
-* CC BY-SA 3.0: <http://creativecommons.org/licenses/by-sa/3.0/>
+* CC BY 3.0: <https://creativecommons.org/licenses/by/3.0/>
+* CC BY-SA 3.0: <https://creativecommons.org/licenses/by-sa/3.0/>
 * GNU GPLv2: <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
 * CDDL 1.1: <https://spdx.org/licenses/CDDL-1.1.html>
 
