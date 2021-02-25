@@ -1,4 +1,4 @@
 ##grflangid 0x02
 ##plural 0
 ##gender p m w n
-STR_GENERAL_DESC        :OpenSFX-Basissounds für OpenTTD. Frei verfügbar unter den folgenden Lizenzen: Creative Commons Attribution-ShareAlike 3.0 Unported, GNU General Public License Version 2 (oder später) und Common Development and Distribution License 1.1. Es enthält Samples von freesound.org und pdsounds.org. Vollständige Referenzen sind in readme.txt zu finden. [{TITLE}]
+STR_GENERAL_DESC        :OpenSFX-Basissounds für OpenTTD. Frei verfügbar unter diesen Lizenzen: Creative Commons Attribution-ShareAlike 3.0 Unported, GNU General Public License Version 2 (oder später) und Common Development and Distribution License 1.1. Vollständige Referenzen sind in „readme.txt“ zu finden. [{TITLE}]
