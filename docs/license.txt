@@ -1,14 +1,14 @@
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 OVERVIEW
------------------------------------------------------------------------------
-This is the OpenSFX license file. To see how these licenses apply to OpenSFX,
-see the readme file.
+------------------------------------------------------------------------
+This is the OpenSFX license file. To see how these licenses apply to
+OpenSFX, see the readme file.
 
 The full license texts that apply to OpenSFX are given below:
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 CREATIVE COMMONS ATTRIBUTION SHAREALIKE 3.0 UNPORTED (CC BY-SA 3.0)
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
 COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
 COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
@@ -360,9 +360,9 @@ Creative Commons Notice
 
 
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 GNU GENERAL PUBLIC LICENSE VERSION 2 (GNU GPLv2)
------------------------------------------------------------------------------
+------------------------------------------------------------------------
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
@@ -648,9 +648,9 @@ POSSIBILITY OF SUCH DAMAGES.
 
 
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 1. Definitions.
 
@@ -1001,7 +1001,8 @@ COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1
   responsibility on an equitable basis. Nothing herein is intended or
   shall be deemed to constitute any admission of liability.
 
-NOTICE PURSUANT TO SECTION 9 OF THE COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)
+NOTICE PURSUANT TO SECTION 9 OF THE
+COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)
 
 The code released under the CDDL shall be governed by the laws of the
 State of California (excluding conflict-of-law provisions). Any
@@ -1010,6 +1011,6 @@ of the Federal Courts of the Northern District of California and the
 state courts of the State of California, with venue lying in Santa Clara
 County, California.
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------
 END OF LICENSE FILE
------------------------------------------------------------------------------
+------------------------------------------------------------------------
