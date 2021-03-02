@@ -45,6 +45,6 @@ endif
 sound: $(OBS_FILE)
 
 clean::
-	$(_V) -rm $(OBS_FILE)
-	$(_V) -rm $(SOUND_FILE)
-	$(_V) -rm src/$(SOUND_FILE)
+	$(_V) -rm -f $(OBS_FILE)
+	$(_V) -rm -f $(SOUND_FILE)
+	$(_V) -rm -f src/$(SOUND_FILE)
