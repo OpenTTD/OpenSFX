@@ -1,7 +1,8 @@
-1.0.0 (TBD)
+1.0.0 (2021-03-12)
 ------------------------------------------------------------------------
 -Change: Many sounds were replaced and reworked
 -Change: License: CC BY-SA 3.0, GPLv2+, CDDL 1.1 (was: CC Sampling Plus)
+-Change: Build system updated to support Git
 
 
 0.2.3 (2010-03-31)
