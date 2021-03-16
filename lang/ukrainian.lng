@@ -1,5 +1,4 @@
 ##grflangid 0x33
 ##plural 6
 ##gender m f s mn
-##cases r d z
 STR_GENERAL_DESC        :Набір звуків OpenSFX для заміни в OpenTTD. Вільно доступний на умовах цих ліцензій: CC BY-SA 3.0, GPLv2 (або пізнішої версії) та CDDL 1.1. Повний текст див. у "readme.txt". [{TITLE}]

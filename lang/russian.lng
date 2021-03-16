@@ -1,5 +1,4 @@
 ##grflangid 0x07
 ##plural 6
 ##gender m f n p
-##cases m f n p nom gen dat acc abl pre
 STR_GENERAL_DESC        :Набор звуков OpenSFX для замены в OpenTTD. Свободно доступен на условиях этих лицензий: CC BY-SA 3.0, GPLv2 (или более поздняя версия) и CDDL 1.1. Полный текст см. в "readme.txt". [{TITLE}]

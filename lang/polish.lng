@@ -1,5 +1,4 @@
 ##grflangid 0x30
 ##plural 7
 ##gender m f n
-##cases d c b n m w
-STR_GENERAL_DESC        :Zestaw zastępujący dźwięk OpenSFX dla OpenTTD. Dostępne swobodnie na warunkach tych licencji: CC BY-SA 3.0, GPLv2 (lub nowsza) i CDDL 1.1. Pełne napisy znajdziesz w „readme.txt”. [{TITLE}]
+STR_GENERAL_DESC        :Zestaw OpenSFX zawierający dźwięki dla gry OpenTTD. Swobodnie dostępne na warunkach tych licencji: CC BY-SA 3.0, GPLv2 (lub nowsza) i CDDL 1.1. Pełen tekst znajdziesz w pliku readme.txt. [{TITLE}]
