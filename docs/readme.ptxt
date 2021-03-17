@@ -1,5 +1,5 @@
 OpenSFX README
-Last updated:    2021-03-12
+Last updated:    2021-03-17
 Release version: {{GRF_TITLE}}
 ------------------------------------------------------------------------
 
@@ -25,11 +25,9 @@ Table of Contents:
 OpenSFX is a set of base sounds for OpenTTD and is the result of the
 "Sound Effects Replacement" project.
 
-OpenSFX is a replacement for the original Transport Tycoon Deluxe
-base sounds used by OpenTTD. The main goal of OpenSFX therefore
-is to provide a set of free sounds which make it possible to play
-OpenTTD without requiring the (copyrighted) files from the Transport
-Tycoon Deluxe CD.
+The main goal of OpenSFX is to provide a set of free sounds which
+make it possible to play OpenTTD without requiring the (copyrighted) files
+from the Transport Tycoon Deluxe CD.
 
 The OpenSFX sounds are free as in 'free beer' and free
 as in 'freedom'.
