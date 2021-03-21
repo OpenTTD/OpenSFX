@@ -2,4 +2,4 @@
 ##plural 10
 ##gender m z s
 ##case g
-STR_GENERAL_DESC        :OpenSFX, náhradná sada zvukov pre OpenTTD. Voľne dostupná pod licenciami: CC BY-SA 3.0, GPLv2 (alebo novšie) a CDDL 1.1. Viac informácií nájdete v súbore "readme.txt". [{TITLE}]
+STR_GENERAL_DESC        :OpenSFX, základná sada zvukov pre OpenTTD. Voľne dostupná pod licenciami: CC BY-SA 3.0, GPLv2 (alebo novšie) a CDDL 1.1. Viac informácií nájdete v súbore "readme.txt". [{TITLE}]
