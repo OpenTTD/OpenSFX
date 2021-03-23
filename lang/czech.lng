@@ -2,4 +2,4 @@
 ##plural 10
 ##gender f np m n map fp mnp
 ##case ins acc dat loc nom voc small gen big
-STR_GENERAL_DESC        :OpenSFX je náhradní zvuková sada pro OpenTTD. Volně dostupná za dodržení podmínek stanovených licencemi: CC BY-SA 3.0, GPLv2 (nebo novější) a CDDL 1.1. Bližší informace najdete v "readme.txt". [{TITLE}]
+STR_GENERAL_DESC        :OpenSFX je základní zvuková sada pro OpenTTD. Volně dostupná za dodržení podmínek stanovených licencemi: CC BY-SA 3.0, GPLv2 (nebo novější) a CDDL 1.1. Bližší informace najdete v "readme.txt". [{TITLE}]
