@@ -1,0 +1,4 @@
+##grflangid 0x04
+##plural 0
+##gender m f
+STR_GENERAL_DESC        :OpenSFX es un conjunto base de sonidos para OpenTTD. Está disponible de forma libre bajo los términos de las licencias: CC BY-SA 3.0, GPLv2 (o posterior) y CDDL 1.1. Consulta el léeme para ver la lista completa de contribuidores al proyecto. [{TITLE}]
