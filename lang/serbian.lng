@@ -1,0 +1,5 @@
+##grflangid 0x0d
+##plural 6
+##gender muški srednji ženski
+##case gen vok nom dat lok big aku ins
+STR_GENERAL_DESC        :OpenSFX skup osnovnih zvukova za OpenTTD. Slobodno dostupno kroz uslove ovih licenci: CC BY-SA 3.0, GPLv2 (ili kasnija) i CDDL 1.1. Za potpune zasluge pogledati "readme.txt" [{TITLE}]
