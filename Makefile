@@ -27,7 +27,7 @@ BASE_FILENAME       ?= opensfx
 # Documentation files
 DOC_FILES ?= docs/readme.txt docs/license.txt docs/changelog.txt
 
-# Possible offset to NewGRF version. Increase by one, if a release
+# Possible offset to baseset version. Increase by one, if a release
 # branch is added to the repository
 REPO_BRANCH_VERSION ?= 0
 
@@ -44,7 +44,7 @@ SCRIPT_DIR          ?= build-common
 
 ##################################################################
 #
-# Everything below here usually need not change for simple NewGRFs
+# Everything below here usually need not change for simple basesets
 #
 ##################################################################
 
@@ -255,7 +255,7 @@ ifeq ($(NML),)
 endif
 ifdef REQUIRED_NML_BRANCH
 ifneq ($(REQUIRED_NML_BRANCH),$(NML_BRANCH))
-	$(_E) "Wrong NML version. This NewGRF requires an NML from the $(REQUIRED_NML_BRANCH) branch, but $(NML_BRANCH) found."
+	$(_E) "Wrong NML version. This baseset requires an NML from the $(REQUIRED_NML_BRANCH) branch, but $(NML_BRANCH) found."
 	$(_V) false
 endif
 endif
@@ -477,7 +477,7 @@ OSTYPE:=$(shell uname -s)
 
 # Check for OSX
 ifeq ($(OSTYPE),Darwin)
-INSTALL_DIR :=$(HOME)/Documents/OpenTTD/newgrf/$(BASE_FILENAME)
+INSTALL_DIR :=$(HOME)/Documents/OpenTTD/baseset/$(BASE_FILENAME)
 endif
 
 # Check for Windows / MinGW32
@@ -488,20 +488,20 @@ ifeq "$(origin CC)" "default"
 endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
-	INSTALL_DIR :=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:\Documents and Settings\All Users\Shared Documents\OpenTTD\baseset\$(BASE_FILENAME)
 else
-	INSTALL_DIR :=C:\Users\Public\Documents\OpenTTD\newgrf\$(BASE_FILENAME)
+	INSTALL_DIR :=C:\Users\Public\Documents\OpenTTD\baseset\$(BASE_FILENAME)
 endif
 endif
 
 # Check for Windows / Cygwin
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),CYGWIN)
-INSTALL_DIR :=$(shell cygpath -A -O)/OpenTTD/newgrf/$(BASE_FILENAME)
+INSTALL_DIR :=$(shell cygpath -A -O)/OpenTTD/baseset/$(BASE_FILENAME)
 endif
 
 # If non of the above matched, we'll assume we're on a unix-like system
 ifeq ($(OSTYPE),Linux)
-INSTALL_DIR := $(HOME)/.openttd/newgrf/$(BASE_FILENAME)
+INSTALL_DIR := $(HOME)/.openttd/baseset/$(BASE_FILENAME)
 endif
 
 endif
@@ -520,8 +520,8 @@ endif
 -include $(SCRIPT_DIR)/Makefile_misc
 
 help:
-	$(_E) "all:         Build the entire NewGRF and its documentation"
-	$(_E) "install:     Install into the default NewGRF directory ($(INSTALL_DIR))"
+	$(_E) "all:         Build the entire baseset and its documentation"
+	$(_E) "install:     Install into the default baseset directory ($(INSTALL_DIR))"
 	$(_E) "$(GENERATE_DOC):         Build the documentation ($(DOC_FILES))"
 ifdef GFX_SCRIPT_LIST_FILES
 	$(_E) "$(GENERATE_GFX):         Build the graphics dependencies"
@@ -575,5 +575,5 @@ endif
 	$(_E) "XZ XZ_FLAGS             defaults: $(XZ) $(XZ_FLAGS)"
 	$(_E)
 	$(_E) "INSTALL_DIR             defaults: $(INSTALL_DIR)"
-	$(_E) "    Sets the default installation directory for NewGRFs"
+	$(_E) "    Sets the default installation directory for basesets"
 
