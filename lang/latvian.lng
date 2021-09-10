@@ -2,5 +2,5 @@
 ##plural 3
 ##gender m f
 ##case kas
-STR_GENERAL_DESC.kas    :OpenSFX bāzes skaņas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar šo licenču nosacījumiem: CC BY-SA 3.0, GPLv2 (vai jaunāka versija) un CDDL 1.1. Pilnu autoru sarakstu skatiet "readme.txt". [{TITLE}]
 STR_GENERAL_DESC        :OpenSFX bāzes skaņas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar šo licenču nosacījumiem: CC BY-SA 3.0, GPLv2 (vai jaunāka versija) un CDDL 1.1. Pilnu autoru sarakstu skatiet "readme.txt". [{TITLE}]
+STR_GENERAL_DESC.kas    :OpenSFX bāzes skaņas komplekts OpenTTD. Pieejams bezmaksas, saskaņā ar šo licenču nosacījumiem: CC BY-SA 3.0, GPLv2 (vai jaunāka versija) un CDDL 1.1. Pilnu autoru sarakstu skatiet "readme.txt". [{TITLE}]
