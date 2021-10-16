@@ -1,3 +1,9 @@
+1.0.2 (2021-10-16)
+------------------------------------------------------------------------
+-Update: Lots of translations
+-Fix: Install location of 'make install'
+
+
 1.0.1 (2021-03-23)
 ------------------------------------------------------------------------
 -Fix: Old and modern bus sounds were swapped
