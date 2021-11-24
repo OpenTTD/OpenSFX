@@ -37,7 +37,7 @@ as in 'freedom'.
 OpenSFX is free software, you are allowed to freely use, copy, modify and
 share this, even commercially, as long you follow the licenses.
 
-The OpenSFX sounds are licensed under the
+The OpenSFX sound collection as a whole is licensed under the
     Creative Commons Attribution-ShareAlike 3.0 Unported
 license.
 
@@ -48,6 +48,18 @@ and
     Common Development and Distribution License 1.1.
 
 You can find the full license texts in license.txt.
+
+Note about individual sound files:
+
+Each individual sound file in OpenSFX is additionally
+released under another license, which is either the same as
+the overall license or a more permissive one.
+See "src/opensfx.psfo" in the source repository to see
+which license it is.
+So if you want to use a specific sound file from OpenSFX, you
+are free to choose whether the overall sound license
+mentioned above applies to you, or the license of the specific
+sound file.
 
 2.0) Installing
 ==== ==========
@@ -163,13 +175,14 @@ source sounds have been released under libre licenses like CC BY 3.0,
 allowing sharing and remixing.
 
 To see detailed license info about the actual sound files in OpenSFX,
-see "src/opensfx.sfo" in the source repository.
+see "src/opensfx.psfo" in the source repository.
 
 4.1) Sound credits of source sounds
 ==== ==============================
 This section gives credit to the original sound authors, i.e. the
-sounds before they were edited. All sounds are sorted by their license
-or legal status.
+sounds before they were edited. All sounds are sorted by their
+ORIGINAL license or legal status. This does not change
+the overall OpenSFX license.
 The name of the author, the origin website, the original file name
 and the URL (if available) are given, in this order.
 
@@ -390,7 +403,7 @@ Editing/(re)mixing was done by:
 * "Wuzzy" from "tt-forums.net"
 
 A detailed list of who has worked on what sample is available in the
-file "src/opensfx.sfo" in the source repository.
+file "src/opensfx.psfo" in the source repository.
 
 4.3) Other authors
 ==== =============
