@@ -1,8 +1,9 @@
 ------------------------------------------------------------------------
 OVERVIEW
 ------------------------------------------------------------------------
-This is the OpenSFX license file. To see how these licenses apply to
-OpenSFX, see the readme file.
+This is the OpenSFX license file. It contains the licenses for OpenSFX
+as a whole. To see how these licenses apply to OpenSFX, see the readme
+file.
 
 The full license texts that apply to OpenSFX are given below:
 
