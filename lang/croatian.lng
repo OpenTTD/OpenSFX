@@ -1,0 +1,5 @@
+##grflangid 0x38
+##plural 6
+##gender female male middle
+##case lok ins nom aku gen dat vok
+STR_GENERAL_DESC        :OpenSFX osnovni zvučni set za OpenTTD. Slobodno dostupno pod uvjetima ovih licenca: CC BY-SA 3.0, GPLv2 (ili kasnije) i CDDL 1.1. Za sve zasluge pogledaj "readme.txt". [{TITLE}]
