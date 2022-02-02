@@ -1,0 +1,5 @@
+##grflangid 0x10
+##plural 6
+##gender n m f p
+##case n nom m abl gen pre p dat acc f
+STR_GENERAL_DESC        :Базавы набор гукаў OpenSFX для OpenTTD. Вольна даступны на ўмовах гэтых ліцэнзій: CC BY-SA 3.0, GPLv2 (ці пазнейшая версія) і CDDL 1.1. Поўны тэкст гл. у "readme.txt". [{TITLE}]
