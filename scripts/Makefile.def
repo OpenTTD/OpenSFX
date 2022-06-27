@@ -24,7 +24,7 @@ NML_FLAGS      ?=
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 
-NFORENUM       ?= $(shell [ `which nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
+NFORENUM       ?= $(shell [ `command -v nforenum 2>/dev/null` ] && echo "nforenum" || echo "renum")
 GRFCODEC       ?= grfcodec
 CATCODEC       ?= catcodec
 TAR            ?= tar
@@ -35,7 +35,7 @@ CC             ?= gcc
 AWK            ?= awk
 GIT            ?= git
 MAKE           ?= make
-UNIX2DOS       ?= $(shell [ `which unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
+UNIX2DOS       ?= $(shell [ `command -v unix2dos 2>/dev/null` ] && echo "unix2dos" || echo "")
 # Macs have a different md5 command than linux or mingw envirnoment:
 MD5SUM         ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "md5 -r" || echo "md5sum")
 NML            ?= nml2nfo

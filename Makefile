@@ -98,7 +98,7 @@ all: $(GENERATE_GRF) $(GENERATE_DOC) bundle_tar
 MAKE           ?= make
 MAKE_FLAGS     ?= -r
 
-NML            ?= $(shell which nmlc 2>/dev/null)
+NML            ?= $(shell command -v nmlc 2>/dev/null)
 NML_FLAGS      ?= -c
 ifdef REQUIRED_NML_BRANCH
 	NML_BRANCH = $(shell nmlc --version | head -n1 | cut -d. -f1-2)
@@ -108,7 +108,7 @@ ifdef MIN_NML_REVISION
 endif
 
 ifdef MAIN_SRC_FILE
-	CC             ?= $(shell which gcc 2>/dev/null)
+	CC             ?= $(shell command -v gcc 2>/dev/null)
 	CC_FLAGS       ?= -C -E -nostdinc -x c-header
 endif
 
@@ -116,11 +116,11 @@ AWK            ?= awk
 
 GREP           ?= grep
 
-GIT            ?= $(shell git status >/dev/null 2>/dev/null && which git 2>/dev/null)
+GIT            ?= $(shell git status >/dev/null 2>/dev/null && command -v git 2>/dev/null)
 
 PYTHON         ?= python
 
-UNIX2DOS       ?= $(shell which unix2dos 2>/dev/null)
+UNIX2DOS       ?= $(shell command -v unix2dos 2>/dev/null)
 UNIX2DOS_FLAGS ?= $(shell [ -n $(UNIX2DOS) ] && $(UNIX2DOS) -q --version 1>&2 2>/dev/null && echo "-q" || echo "")
 
 ################################################################
@@ -191,7 +191,7 @@ ifdef GFX_SCRIPT_LIST_FILES
 # include dependency file, if we generate graphics
 -include Makefile_gfx.dep
 
-GIMP           ?= $(shell [ `which gimp 2>/dev/null` ] && echo "gimp" || echo "")
+GIMP           ?= $(shell [ `command -v gimp 2>/dev/null` ] && echo "gimp" || echo "")
 GIMP_FLAGS     ?= -n -i -b - <
 
 %.scm: $(SCRIPT_DIR)/gimpscript $(SCRIPT_DIR)/gimp.sed
@@ -309,26 +309,26 @@ clean::
 # and the distribution bundles like bundle_tar, bundle_zip, ...
 
 # Programme definitions
-TAR            ?= $(shell which tar 2>/dev/null)
+TAR            ?= $(shell command -v tar 2>/dev/null)
 TAR_FLAGS      ?= -cf
 
-ZIP            ?= $(shell which zip 2>/dev/null)
+ZIP            ?= $(shell command -v zip 2>/dev/null)
 ZIP_FLAGS      ?= -9rq
 
-GZIP           ?= $(shell which gzip 2>/dev/null)
+GZIP           ?= $(shell command -v gzip 2>/dev/null)
 GZIP_FLAGS     ?= -9f
 
-BZIP           ?= $(shell which bzip2 2>/dev/null)
+BZIP           ?= $(shell command -v bzip2 2>/dev/null)
 BZIP_FLAGS     ?= -9fk
 
-XZ             ?= $(shell which xz 2>/dev/null)
+XZ             ?= $(shell command -v xz 2>/dev/null)
 XZ_FLAGS       ?= -efk
 
 # OSX has nice extended file attributes which create their own file within tars. We don't want those, thus don't copy them
 CP_FLAGS       ?= $(shell [ "$(OSTYPE)" = "Darwin" ] && echo "-rfX" || echo "-rf")
 
 # Use the grfID programme to find the checksum which OpenTTD checks
-GRFID          ?= $(shell which grfid 2>/dev/null)
+GRFID          ?= $(shell command -v grfid 2>/dev/null)
 GRFID_FLAGS    ?= -m
 
 # Rules on how to generate filenames. Usually no need to change
@@ -484,7 +484,7 @@ endif
 ifeq ($(shell echo "$(OSTYPE)" | cut -d_ -f1),MINGW32)
 # If CC has been set to the default implicit value (cc), check if it can be used. Otherwise use a saner default.
 ifeq "$(origin CC)" "default"
-	CC=$(shell which cc 2>/dev/null && echo "cc" || echo "gcc")
+	CC=$(shell command -v cc 2>/dev/null && echo "cc" || echo "gcc")
 endif
 WIN_VER = $(shell echo "$(OSTYPE)" | cut -d- -f2 | cut -d. -f1)
 ifeq ($(WIN_VER),5)
