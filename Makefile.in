@@ -9,7 +9,7 @@
 		> $@
 	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
 
-MD5SUM         ?= $(shell which md5sum 2>/dev/null)
+MD5SUM         ?= $(shell command -v md5sum 2>/dev/null)
 
 $(SOUND_FILE): $(SRC_DIR)/$(BASE_FILENAME).sfo $(SOUND_FILES) Makefile Makefile.in Makefile.config
 # replace the place holders for version and name by the respective variables:
@@ -18,7 +18,7 @@ $(SOUND_FILE): $(SRC_DIR)/$(BASE_FILENAME).sfo $(SOUND_FILES) Makefile Makefile.
 	$(_V) $(CATCODEC) $(CATCODEC_FLAGS) $(SRC_DIR)/$@
 	$(_V) cp $(SRC_DIR)/$@ .
 
-ifneq ("$(shell which $(MD5SUM) 2>/dev/null)","")
+ifneq ("$(shell command -v $(MD5SUM) 2>/dev/null)","")
 $(OBS_FILE): $(SOUND_FILE) $(LANG_FILES) Makefile Makefile.in Makefile.config
 	$(_E) "[Generating:] $@"
 	@echo "[metadata]" > $@
