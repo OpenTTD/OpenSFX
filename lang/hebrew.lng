@@ -1,0 +1,5 @@
+##grflangid 0x61
+##plural 0
+##gender m f
+##case gen plural singular
+STR_GENERAL_DESC        :OpenSFX היא חבילת הבסיס לצלילים ב OpenTTD. מופץ באופן חופשי תחת הרשיונות הבאים: CC BY-SA 3.0, GPLv2 (או גרסאות מאוחרות יותר) ו-CDDL 1.1. מידע מלא וקרדיטים ניתן למצוא בקובץ "readme.txt". [{TITLE}]
