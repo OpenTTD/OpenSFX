@@ -1,8 +1,8 @@
 #!/bin/bash
 
 function get_langline() {
-	id=`cat $1 | grep -a 'grflangid' | cut -c13-16`
-	text=`cat $1 | grep -a 'STR_GENERAL_DESC[[:space:]]*:' | cut -d: -f2-`
+	id=`grep -a 'grflangid' $1 | cut -c13-16`
+	text=`grep -a 'STR_GENERAL_DESC[[:space:]]*:' $1 | cut -d: -f2-`
 	langcode=""
 	case "$id" in
 		"0x00" ) langcode="en_US";;
@@ -102,11 +102,8 @@ function get_langline() {
 	line="description.$langcode = $text"
 }
 
-# Obtain list of lang files
-lang_files="`ls lang/*.lng`"
-
 # Loop over language files
-for i in $lang_files; do
+for i in lang/*.lng; do
 	# echo "Processing: $i"
 	get_langline $i
 
