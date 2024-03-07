@@ -14,5 +14,5 @@ jobs:
     uses: OpenTTD/actions/.github/workflows/rw-entry-release-baseset.yml@v7
     secrets: inherit
     with:
-      apt-packages: catcodec
+      apt-packages: catcodec opus-tools
       name: opensfx
