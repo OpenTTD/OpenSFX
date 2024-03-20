@@ -52,3 +52,4 @@ clean::
 	$(_V) -rm -f $(OBS_FILE)
 	$(_V) -rm -f $(SOUND_FILE)
 	$(_V) -rm -f src/$(SOUND_FILE)
+	$(_V) -rm -f src/$(SFO_FILE)
