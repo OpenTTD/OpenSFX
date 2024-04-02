@@ -147,7 +147,7 @@ For releases you can download the (released) tarballs from:
 ### 3.1 Compiling the source
 
 For compiling the source you need:
-- catcodec (https://www.openttd.org/download-catcodec)
+- catcodec (https://www.openttd.org/downloads/catcodec-releases/latest)
 - (GNU) make
 - md5sum
 - cut
