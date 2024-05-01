@@ -2,4 +2,4 @@
 ##plural 2
 ##gender n m f
 ##case geniki date subs
-STR_GENERAL_DESC        :Βασικό πακέτο ήχων OpenSFX για το OpenTTD. Ελεύθερα διαθέσιμο υπό τους όρους των εξής αδειών: CC BY-SA 3.0, GPLv2 (ή μεταγενέστερη) και CDDL 1.1. Για πλήρη εύσημα δείτε το αρχείο "readme.txt". [{TITLE}]
+STR_GENERAL_DESC        :Βασικό πακέτο ήχων OpenSFX για το OpenTTD. Ελεύθερα διαθέσιμο υπό τους όρους των εξής αδειών: CC BY-SA 3.0, GPLv2 (ή μεταγενέστερη) και CDDL 1.1. Για πλήρη κατάλογο συντελεστών δείτε το αρχείο "readme.txt". [{TITLE}]
