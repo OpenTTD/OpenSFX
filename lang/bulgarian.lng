@@ -1,0 +1,5 @@
+##grflangid 0x18
+##plural 0
+##gender n m f p
+##case n m f p
+STR_GENERAL_DESC        :OpenSFX комплект базови звуци за OpenTTD. Безплатно достъпен при условията на тези лицензи: CC BY-SA 3.0, GPLv2 (или по-нова) и CDDL 1.1. За пълен списък на всички участници в проекта вижте "readme.txt". [{TITLE}]
