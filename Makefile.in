@@ -2,14 +2,20 @@
 
 %.sfo: %.psfo
 	$(_V) cat $< \
-		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/" \
-		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/" \
-		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/" \
-		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/" \
+		| sed -e "s/$(REPLACE_TITLE)/$(REPO_TITLE)/g" \
+		| sed -e "s/$(REPLACE_GRFID)/$(GRF_ID)/g" \
+		| sed -e "s/$(REPLACE_REVISION)/$(NEWGRF_VERSION)/g" \
+		| sed -e "s/$(REPLACE_FILENAME)/$(OUTPUT_FILENAME)/g" \
+		| sed -e "s/$(REPLACE_EXTENSION)/$(FILE_EXTENSION)/g" \
 		> $@
 	$(_V) [ -z "$(UNIX2DOS)" ] || $(UNIX2DOS) $(UNIX2DOS_FLAGS) $@
 
 MD5SUM         ?= $(shell command -v md5sum 2>/dev/null)
+
+$(SRC_DIR)/$(FILE_EXTENSION)/%.$(FILE_EXTENSION): $(SRC_DIR)/wav/%.wav
+	$(_E) "[Generating] $@"
+	$(_V) mkdir -p $(SRC_DIR)/$(FILE_EXTENSION)/
+	$(_V) $(OPUSENC) $(OPUSENC_FLAGS) $< $@
 
 $(SOUND_FILE): $(SRC_DIR)/$(BASE_FILENAME).sfo $(SOUND_FILES) Makefile Makefile.in Makefile.config
 # replace the place holders for version and name by the respective variables:
@@ -49,7 +55,9 @@ endif
 sound: $(OBS_FILE)
 
 clean::
+	$(_E) "[CLEAN SOUND SRC]"
 	$(_V) -rm -f $(OBS_FILE)
 	$(_V) -rm -f $(SOUND_FILE)
-	$(_V) -rm -f src/$(SOUND_FILE)
-	$(_V) -rm -f src/$(SFO_FILE)
+	$(_V) -rm -f $(SRC_DIR)/$(BASE_FILENAME).sfo
+	$(_V) -rm -f $(SRC_DIR)/$(SOUND_FILE)
+	$(_V) -rm -f $(SRC_DIR)/$(SFO_FILE)
